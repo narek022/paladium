@@ -1,0 +1,25 @@
+.car {
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+}
+
+.car1 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.nav {
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+
+.nav:hover {
+    color:rgb(147, 122, 41)
+}
+
+

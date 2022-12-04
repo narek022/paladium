@@ -1,0 +1,10 @@
+.li {
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.li:hover {
+    color:rgb(147, 122, 41)
+}

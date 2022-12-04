@@ -1,0 +1,27 @@
+.footer {
+    background-color: rgb(69, 63, 63);
+    padding: 50px;
+}
+
+.footer1 {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    color: gray;
+}
+
+.nav:hover {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+.footer2 {
+    margin-top: 50px;
+    color: gray;
+}
