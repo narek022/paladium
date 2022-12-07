@@ -1,8 +1,37 @@
 .navbar {
     padding-top: 20px;
-    background-color: rgba(184, 131, 26, 0.7);
+    transition: 0.5s;
+}
+
+.navbar.active {
+    padding-top: 20px;
+    background-color: rgba(28,49,74,0.95);
+    transition: 0.5s;
 }
 
 .caption {
     margin-bottom: 60px;
+}
+
+.btn {
+    background-color: aliceblue;
+}
+
+.navbar-nav a {
+    color: white;
+    font-weight: 400;
+}
+
+.navbar-nav a:hover {
+    color: rgb(165, 76, 4);
+}
+
+.show {
+    padding: 20px;
+    background-color: rgba(28,49,74,0.95);
+}
+
+.collapsing{
+    padding: 20px;
+    background-color: rgba(28,49,74,0.95);
 }

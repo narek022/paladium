@@ -1,16 +1,15 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from "../../Components/carousel1/Carousel";
-import CarouselServices from "../../Components/carousel2/CarouselServices";
-import CarouselProducts from "../../Components/carousel3/CarouselProducts";
-import Script from "../../Components/readinfo/Script"
+import CardList1 from "../../Components/cardList1/CardList"
+import CardList2 from "../../Components/cardList2/CardList"
 function Home() {
   return <div className="Home">
+    <title>Home | PaladiumTechServiceLimited</title>
     <div>
       <Carousel />
-      <CarouselServices />
-      <CarouselProducts />
-      <Script />
+      <CardList1 />
+      <CardList2/>
     </div>
   </div>;
 }

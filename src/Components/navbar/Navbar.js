@@ -1,17 +1,24 @@
-import React, { Component } from "react";
+import React, { Component, useState } from "react";
 import { Container, Navbar, NavbarBrand, NavLink, Nav } from "react-bootstrap";
 import logo from "./Pics/logo.png";
-import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Navbar.css";
 
-
 export default function Header() {
+  const [navbar, setNavbar] = useState(false);
+  const change = () => {
+    if (window.scrollY > 80) {
+      setNavbar(true);
+    } else {
+      setNavbar(false);
+    }
+  };
+  window.addEventListener("scroll", change);
   return (
     <Navbar
       fixed="top"
       collapseOnSelect
       expand="lg"
-      className="navbar"
+      className={navbar ? "navbar active" : "navbar"}
       variant="secondary"
     >
       <Container>
@@ -28,51 +35,10 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavLink href="/">Home</NavLink>
-            <NavDropdown title="About Us" id="navbarScrollingDropdown" className="drop">
-              <NavDropdown.Item href="/staff">Our Staff</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/staff1">
-                ARSEN HOVSEPYAN
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/staff2">
-                ARMEN KHACHATRYAN
-              </NavDropdown.Item>
-              <NavDropdown.Item href="staff3">
-                ASHOT GEVORGYAN
-              </NavDropdown.Item>
-              <NavDropdown.Item href="staff4">
-                KAREN GRIGORYAN
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/about">
-                About Us
-              </NavDropdown.Item>
-            </NavDropdown>
+            <NavLink href="/about">About Us</NavLink>
             <NavLink href="/works">Our Works</NavLink>
-            <NavDropdown title="Our Services" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="service1">AUTO SERVICES</NavDropdown.Item>
-              <NavDropdown.Item href="service2">IT SERVICES</NavDropdown.Item>
-              <NavDropdown.Item href="service3">
-                MAINTENANCE OF COMMUNICATION EQUIPMENT
-              </NavDropdown.Item>
-              <NavDropdown.Item href="service4">
-                TRAINING AND TESTING
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/services">Our Services</NavDropdown.Item>
-            </NavDropdown>
-            <NavDropdown title="Our Products" id="navbarScrollingDropdown">
-              <NavDropdown.Item href="/product1">Cover</NavDropdown.Item>
-              <NavDropdown.Item href="/product2">
-                Tracked Vehicles Spare Parts
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/product3">
-                Sauto Spare Parts
-              </NavDropdown.Item>
-              <NavDropdown.Item href="/product4">Communication</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="/products">Our Products</NavDropdown.Item>
-            </NavDropdown>
+            <NavLink href="/services">Our Services</NavLink>
+            <NavLink href="/products">Our Products</NavLink>
             <NavLink href="/contact">Contact Us</NavLink>
           </Nav>
         </Navbar.Collapse>

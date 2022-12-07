@@ -1,32 +1,34 @@
-import Carousel from 'react-bootstrap/Carousel';
-import car1 from "./pics/car1.1.jpg";
-import car2 from "./pics/car2.1.jpg"
-
+import Carousel from "react-bootstrap/Carousel";
+import "./style.css";
+import car1 from "./pics/car1.jpg";
+import car2 from "./pics/car2.1.jpg";
+import { NavLink } from "react-bootstrap";
 
 function CarouselFadeExample() {
   return (
     <Carousel fade>
-      <Carousel.Item interval={3000}>
-        <img
-          className="d-block w-100"
-          src={car1}
-          alt="First slide"
-        />
-        <Carousel.Caption className='caption'>
-          <div><h3>First slide label</h3></div>
-          <div><p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p></div>
+      <Carousel.Item interval={2000}>
+        <img className="d-block w-100" src={car1} alt="First slide" />
+        <Carousel.Caption className="caption">
+          <div>
+            <NavLink href="/works" className="link">Our Works</NavLink>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={3000}>
-        <img
-          className="d-block w-100"
-          src={car2}
-          alt="Second slide"
-        />
-
-        <Carousel.Caption className='caption'>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <Carousel.Item interval={2000}>
+        <img className="d-block w-100" src={car2} alt="Second slide" />
+        <Carousel.Caption className="caption">
+          <div>
+            <NavLink href="/services" className="link">Our Services</NavLink>
+          </div>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={2000}>
+        <img className="d-block w-100" src={car1} alt="First slide" />
+        <Carousel.Caption className="caption">
+          <div>
+            <NavLink href="/products" className="link">Our Prodcts</NavLink>
+          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

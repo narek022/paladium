@@ -1,27 +1,9 @@
 .footer {
-    background-color: rgb(69, 63, 63);
-    padding: 50px;
+    width: 100%;
+    padding-left: 20px;
+    margin-top: 40px;
+    padding-top:40px;
+    padding-bottom:20px;
+    background-color: rgb(88, 68, 40);
 }
 
-.footer1 {
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav {
-    color: gray;
-}
-
-.nav:hover {
-    color: white;
-}
-
-h3 {
-    color: white;
-}
-
-.footer2 {
-    margin-top: 50px;
-    color: gray;
-}
