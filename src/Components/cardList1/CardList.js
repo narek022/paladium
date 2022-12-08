@@ -1,65 +1,40 @@
-import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
-import "./style.css";
-import car1 from "../cardList2/pics/auto-spare.jpg"
-import { NavLink } from "react-bootstrap";
+import Card from 'react-bootstrap/Card';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row';
+import "./style.css"
+import car from "./pics/auto-spare.jpg"
 
-function GroupExample() {
+function GridExample() {
   return (
-    <div className="cd">
-      <NavLink href="/services">
-      <h3>Our Services</h3>
-      </NavLink>
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src={car1} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src={car1} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardGroup>
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src={car1} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src={car1} />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardGroup>
-    </div>
+    <Row xs={1} md={2} className="g-4">
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={car} />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col>
+          <Card>
+            <Card.Img variant="top" src={car} />
+            <Card.Body>
+              <Card.Title>Card title</Card.Title>
+              <Card.Text>
+                This is a longer card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </Col>
+    </Row>
   );
 }
 
-export default GroupExample;
+export default GridExample;

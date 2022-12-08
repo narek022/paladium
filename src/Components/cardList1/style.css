@@ -9,3 +9,15 @@
 h3 {
     color: black;
 }
+
+.g-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+
+.col {
+    width: 21%;
+    min-width: 200px;
+}

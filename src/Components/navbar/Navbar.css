@@ -19,19 +19,33 @@
 
 .navbar-nav a {
     color: white;
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .navbar-nav a:hover {
     color: rgb(165, 76, 4);
 }
 
+
+.nl {
+    margin-left: 10px;
+}
+
 .show {
     padding: 20px;
     background-color: rgba(28,49,74,0.95);
+    margin-left: 0;
 }
 
 .collapsing{
     padding: 20px;
     background-color: rgba(28,49,74,0.95);
+}
+
+.collapse .mr-auto {
+    margin-left: 40%;
+}
+
+.show .mr-auto {
+    margin-left: 0%;
 }

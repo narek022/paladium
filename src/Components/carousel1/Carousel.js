@@ -1,7 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./style.css";
-import car1 from "./pics/car1.jpg";
-import car2 from "./pics/car2.1.jpg";
+import car1 from "./pics/car1.1.jpg";
+import car2 from "./pics/car2.1.1.jpg";
 import { NavLink } from "react-bootstrap";
 
 function CarouselFadeExample() {

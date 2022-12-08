@@ -21,7 +21,7 @@ export default function Header() {
       className={navbar ? "navbar active" : "navbar"}
       variant="secondary"
     >
-      <Container>
+      <Container className="cont">
         <NavbarBrand href="/">
           <img
             src={logo}
@@ -34,12 +34,12 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <NavLink href="/">Home</NavLink>
-            <NavLink href="/about">About Us</NavLink>
-            <NavLink href="/works">Our Works</NavLink>
-            <NavLink href="/services">Our Services</NavLink>
-            <NavLink href="/products">Our Products</NavLink>
-            <NavLink href="/contact">Contact Us</NavLink>
+            <NavLink className="nl" href="/">Home</NavLink>
+            <NavLink className="nl" href="/about">About Us</NavLink>
+            <NavLink className="nl" href="/works">Our Works</NavLink>
+            <NavLink className="nl" href="/services">Our Services</NavLink>
+            <NavLink className="nl" href="/products">Our Products</NavLink>
+            <NavLink className="nl" href="/contact">Contact Us</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
