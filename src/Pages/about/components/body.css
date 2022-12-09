@@ -1,0 +1,14 @@
+.abtext {
+    text-align: center;
+}
+
+.abb1 {
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.abb1 span {
+    font-size: 24px;
+    font-weight: 400;
+}

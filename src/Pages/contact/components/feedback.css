@@ -1,0 +1,24 @@
+.form {
+    width: 60%;
+    padding: 20px;
+}
+
+.name, .mail {
+    max-width: 300px;
+}
+
+.sub {
+    max-width: 500px;
+}
+
+.mes {
+    max-width: 500px;
+}
+
+.mes .form-control {
+    height: 100px;
+}
+
+.form h3 {
+    padding: 10px;
+}

@@ -21,3 +21,6 @@ h3 {
     width: 21%;
     min-width: 200px;
 }
+.card-text {
+    color: black;
+}
