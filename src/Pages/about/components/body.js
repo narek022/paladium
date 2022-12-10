@@ -19,26 +19,34 @@ function GridExample() {
           commercial and industrial industries. Our professional staff brings
           their experience and expertise to every project to ensure compliance
           and, most importantly, safety. PaladiumTechService Limited is also an
-          intermediary company that provides broker service to clients by
+          intermediary company that provide broker service to clients by
           presenting as a connecting link between the seller and the buyer.
         </span>
       </div>
       <div className="abb2">
-        <div className="abtext"><h3>Our Staff</h3></div>
+        <div className="abtext">
+          <h3>
+            <NavLink href="/staff">Our Staff</NavLink>
+          </h3>
+        </div>
         <Row xs={1} md={2} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" src={armen} />
+              <Card.Img variant="top" src={arsen} />
               <Card.Body>
-                <Card.Title><NavLink>ARSEN HOVSEPYAN</NavLink></Card.Title>
+                <Card.Title>
+                  <NavLink href="/ArsenHovsepyan">ARSEN HOVSEPYAN</NavLink>
+                </Card.Title>
               </Card.Body>
             </Card>
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={arsen} />
+              <Card.Img variant="top" src={armen} />
               <Card.Body>
-                <Card.Title><NavLink>ARMEN KHACHATRYAN</NavLink></Card.Title>
+                <Card.Title>
+                  <NavLink href="/ArmenKhachatryan">ARMEN KHACHATRYAN</NavLink>
+                </Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -46,7 +54,9 @@ function GridExample() {
             <Card>
               <Card.Img variant="top" src={ashot} />
               <Card.Body>
-                <Card.Title><NavLink>ASHOT GEVORGYAN</NavLink></Card.Title>
+                <Card.Title>
+                  <NavLink href="/AshotGevorgyan">ASHOT GEVORGYAN</NavLink>
+                </Card.Title>
               </Card.Body>
             </Card>
           </Col>
@@ -54,7 +64,9 @@ function GridExample() {
             <Card>
               <Card.Img variant="top" src={karen} />
               <Card.Body>
-                <Card.Title><NavLink>KAREN GRIGORYAN</NavLink></Card.Title>
+                <Card.Title>
+                  <NavLink href="/KarenGrigoryan">KAREN GRIGORYAN</NavLink>
+                </Card.Title>
               </Card.Body>
             </Card>
           </Col>

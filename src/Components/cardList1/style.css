@@ -24,3 +24,16 @@ h3 {
 .card-text {
     color: black;
 }
+
+.servcont {
+    background-color: rgb(181, 193, 213);
+}
+
+.servcont .col .card {
+    background-color: rgb(181, 193, 213);
+}
+
+.servcont .col .card:hover {
+    color: rgb(155, 81, 54);
+    transition: 0.1s;
+}

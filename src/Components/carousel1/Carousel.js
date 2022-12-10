@@ -27,7 +27,7 @@ function CarouselFadeExample() {
         <img className="d-block w-100" src={car1} alt="First slide" />
         <Carousel.Caption className="caption">
           <div>
-            <NavLink href="/products" className="link">Our Prodcts</NavLink>
+            <NavLink href="/products" className="link">Our Products</NavLink>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

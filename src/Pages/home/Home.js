@@ -12,7 +12,6 @@ function Home() {
       <Carousel />
       <div className="text"><NavLink>Our Services</NavLink></div>
       <CardList1 />
-      <CardList1 />
       <div className="text"><NavLink>Our Products</NavLink></div>
       <CardList2 />
     </div>

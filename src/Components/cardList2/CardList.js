@@ -13,7 +13,7 @@ import "./style3.css";
 
 function GridExample() {
   return (
-    <div className="cont">
+    <div className="prodcont">
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card >
