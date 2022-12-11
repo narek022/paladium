@@ -27,3 +27,8 @@
 .link {
     font-size: 20px;
 }
+
+.caption a {
+    text-decoration: none;
+    color: white;
+}

@@ -20,6 +20,10 @@ import Product1 from "./Pages/products/1"
 import Product2 from "./Pages/products/2"
 import Product3 from "./Pages/products/3"
 import Product4 from "./Pages/products/4"
+import Product5 from "./Pages/products/5"
+import Product6 from "./Pages/products/6"
+import Product7 from "./Pages/products/7"
+import Product8 from "./Pages/products/8"
 import Contact from "./Pages/contact/Contact";
 
 function App() {
@@ -41,10 +45,14 @@ function App() {
         <Route path="/MaintenanceOfCommunucationEquipment" element={<Service3 />} />
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
-        <Route path="/Cover" element={<Product1 />} />
-        <Route path="/TrackedVehiclesSpareParts" element={<Product2 />} />
-        <Route path="/SautoSpareParts" element={<Product3 />} />
-        <Route path="/Communication" element={<Product4 />} />
+        <Route path="/AutoSpareParts" element={<Product1 />} />
+        <Route path="/Helmets" element={<Product2 />} />
+        <Route path="/UAV" element={<Product3 />} />
+        <Route path="/TrackedVehiclesSpareParts" element={<Product4 />} />
+        <Route path="/ArmorPlates" element={<Product5 />} />
+        <Route path="/BulletprofVest" element={<Product6 />} />
+        <Route path="/Cover" element={<Product7 />} />
+        <Route path="/Optics" element={<Product8 />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

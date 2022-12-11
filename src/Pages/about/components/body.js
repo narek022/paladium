@@ -1,4 +1,4 @@
-import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom"
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -26,7 +26,7 @@ function GridExample() {
       <div className="abb2">
         <div className="abtext">
           <h3>
-            <NavLink href="/staff">Our Staff</NavLink>
+            <Link to="/staff">Our Staff</Link>
           </h3>
         </div>
         <Row xs={1} md={2} className="g-4">
@@ -35,7 +35,7 @@ function GridExample() {
               <Card.Img variant="top" src={arsen} />
               <Card.Body>
                 <Card.Title>
-                  <NavLink href="/ArsenHovsepyan">ARSEN HOVSEPYAN</NavLink>
+                  <Link to="/ArsenHovsepyan">ARSEN HOVSEPYAN</Link>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -45,7 +45,7 @@ function GridExample() {
               <Card.Img variant="top" src={armen} />
               <Card.Body>
                 <Card.Title>
-                  <NavLink href="/ArmenKhachatryan">ARMEN KHACHATRYAN</NavLink>
+                  <Link to="/ArmenKhachatryan">ARMEN KHACHATRYAN</Link>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -55,7 +55,7 @@ function GridExample() {
               <Card.Img variant="top" src={ashot} />
               <Card.Body>
                 <Card.Title>
-                  <NavLink href="/AshotGevorgyan">ASHOT GEVORGYAN</NavLink>
+                  <Link to="/AshotGevorgyan">ASHOT GEVORGYAN</Link>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -65,7 +65,7 @@ function GridExample() {
               <Card.Img variant="top" src={karen} />
               <Card.Body>
                 <Card.Title>
-                  <NavLink href="/KarenGrigoryan">KAREN GRIGORYAN</NavLink>
+                  <Link to="/KarenGrigoryan">KAREN GRIGORYAN</Link>
                 </Card.Title>
               </Card.Body>
             </Card>

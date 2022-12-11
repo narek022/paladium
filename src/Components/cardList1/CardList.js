@@ -2,11 +2,10 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./style.css";
-import car from "./pics/auto-spare.jpg";
-import serv1 from "../../Pages/services/components/pics/serv1.jpg"
-import serv2 from "../../Pages/services/components/pics/serv2.jpg"
-import serv4 from "../../Pages/services/components/pics/serv4.jpg"
-import { NavLink } from "react-bootstrap";
+import serv1 from "../../Pages/services/components/pics/serv1.jpg";
+import serv2 from "../../Pages/services/components/pics/serv2.jpg";
+import serv4 from "../../Pages/services/components/pics/serv4.jpg";
+import { Link } from "react-router-dom";
 
 function GridExample() {
   return (
@@ -17,7 +16,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv1} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/AutoServices">AUTO SERVICES</NavLink>
+                <Link to="/AutoServices">AUTO SERVICES</Link>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -27,7 +26,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/ITServices">IT SERVICES</NavLink>
+                <Link to="/ITServices">IT SERVICES</Link>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -40,7 +39,9 @@ function GridExample() {
             <Card.Img variant="top" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</NavLink>
+                <Link to="/MaintenanceOfCommunucationEquipment">
+                  MAINTENANCE OF COMMUNICATION EQUIPMENT
+                </Link>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -50,7 +51,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv4} />
             <Card.Body>
               <Card.Title>
-                <NavLink href="/TrainingAndTesting">TRAINING AND TESTING</NavLink>
+                <Link to="/TrainingAndTesting">TRAINING AND TESTING</Link>
               </Card.Title>
             </Card.Body>
           </Card>

@@ -2,19 +2,19 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom"
-import car from "./pics/car.svg";
-import helmetIcon from "./pics/helmet.svg"
-import aiplaneIcon from "./pics/airplane.svg"
-import tractorIcon from "./pics/tractor.svg"
-import sheildIcon from "./pics/sheild.svg"
-import vestIcon from "./pics/vest.svg"
-import coverIcon from "./pics/cover.svg"
-import opticsIcon from "./pics/optics.svg"
-import "./style3.css";
+import car from "../../../Components/cardList2/pics/car.svg"
+import helmetIcon from "../../../Components/cardList2/pics/helmet.svg"
+import aiplaneIcon from "../../../Components/cardList2/pics/airplane.svg"
+import tractorIcon from "../../../Components/cardList2/pics/tractor.svg"
+import sheildIcon from "../../../Components/cardList2/pics/sheild.svg"
+import vestIcon from "../../../Components/cardList2/pics/vest.svg"
+import coverIcon from "../../../Components/cardList2/pics/cover.svg"
+import opticsIcon from "../../../Components/cardList2/pics/optics.svg"
+import "./style.css"
 
 function GridExample() {
   return (
-    <div className="prodcont">
+    <div className="prodcont_1">
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card >

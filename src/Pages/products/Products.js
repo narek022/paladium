@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./components/header"
-import CardList from "../../Components/cardList1/CardList"
+import Body from "./components/body"
 
 
 function Products () {
@@ -8,10 +8,7 @@ function Products () {
         <div>
             <title>Products | PaladiumTechServiceLimited</title>
             <Header />
-            <CardList />
-            <CardList />
-            <CardList />
-            <CardList />
+            <Body />
         </div>
     )
 }

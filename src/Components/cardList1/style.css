@@ -26,14 +26,14 @@ h3 {
 }
 
 .servcont {
-    background-color: rgb(181, 193, 213);
+    background-color: rgb(235, 236, 237);
 }
 
 .servcont .col .card {
-    background-color: rgb(181, 193, 213);
+    background-color: rgb(235, 236, 237);
 }
 
-.servcont .col .card:hover {
-    color: rgb(155, 81, 54);
-    transition: 0.1s;
+
+.col .card {
+    border: none;
 }

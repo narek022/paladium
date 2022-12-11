@@ -2,7 +2,7 @@ import Carousel from "react-bootstrap/Carousel";
 import "./style.css";
 import car1 from "./pics/car1.1.jpg";
 import car2 from "./pics/car2.1.1.jpg";
-import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom"
 
 function CarouselFadeExample() {
   return (
@@ -11,7 +11,7 @@ function CarouselFadeExample() {
         <img className="d-block w-100" src={car1} alt="First slide" />
         <Carousel.Caption className="caption">
           <div>
-            <NavLink href="/works" className="link">Our Works</NavLink>
+            <Link to="/works" className="link">Our Works</Link>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -19,7 +19,7 @@ function CarouselFadeExample() {
         <img className="d-block w-100" src={car2} alt="Second slide" />
         <Carousel.Caption className="caption">
           <div>
-            <NavLink href="/services" className="link">Our Services</NavLink>
+            <Link to="/services" className="link">Our Services</Link>
           </div>
         </Carousel.Caption>
       </Carousel.Item>
@@ -27,7 +27,7 @@ function CarouselFadeExample() {
         <img className="d-block w-100" src={car1} alt="First slide" />
         <Carousel.Caption className="caption">
           <div>
-            <NavLink href="/products" className="link">Our Products</NavLink>
+            <Link to="/products" className="link">Our Products</Link>
           </div>
         </Carousel.Caption>
       </Carousel.Item>

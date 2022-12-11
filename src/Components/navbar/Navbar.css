@@ -20,6 +20,8 @@
 .navbar-nav a {
     color: white;
     font-weight: 600;
+    padding-left: 7px;
+    padding-right: 7px;
 }
 
 .navbar-nav a:hover {

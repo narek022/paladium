@@ -13,11 +13,7 @@ export const Footer = () => {
       >
         <CDBBox display="flex" justifyContent="between" className="flex-wrap">
           <CDBBox>
-            <a href="/" className="d-flex align-items-center p-0 text-dark">
-              <span className="ml-3 h5 font-weight-bold">
-                PaladiumTechServiceLimited
-              </span>
-            </a>
+            <p>PaladiumTechServiceLimited</p>
             <p>49 Al Tatawwur St - Al Khalidiyah - W9 Abu Dhabi, UAE</p>
             <p>Email: info@paladiumtechservicelimited.com</p>
           </CDBBox>

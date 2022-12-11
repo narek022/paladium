@@ -4,15 +4,16 @@ import Carousel from "../../Components/carousel1/Carousel";
 import CardList1 from "../../Components/cardList1/CardList"
 import CardList2 from "../../Components/cardList2/CardList"
 import "./style.css"
-import { NavLink } from "react-bootstrap";
+import { Link } from "react-router-dom"
+
 function Home() {
   return <div className="Home">
     <title>Home | PaladiumTechServiceLimited</title>
     <div>
       <Carousel />
-      <div className="text"><NavLink>Our Services</NavLink></div>
+      <div className="text"><Link to="/services">Our Services</Link></div>
       <CardList1 />
-      <div className="text"><NavLink>Our Products</NavLink></div>
+      <div className="text"><Link to="/products">Our Products</Link></div>
       <CardList2 />
     </div>
   </div>;
