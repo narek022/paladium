@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "./components/header"
-import CardList from "../../Components/cardList1/CardList"
+import ServCardList from "./components/ServCardList"
 
 function Services () {
     return (
         <div>
             <title>Our Services | PaladiumTechServiceLimited</title>
             <Header />
-            <CardList />
+            <ServCardList />
 
         </div>
     )

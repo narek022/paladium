@@ -16,20 +16,18 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
+          <Col>Mechanical engineer, Specialist/Engineer in vehicles’ maintenance</Col>
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Armen has military educational background, more than 20 years of
+              experience in military service and in maintenance of automobiles
+              and other vehicles. He has qualification of controlling, operating
+              and maintaining of unmanned aerial vehicles. Skilled producer of
+              documentation and drawings associated with mechanical engineering.
+              Possesses wide range of technical skills as well as training a
+              productive team. Expert user of Solidworks in developing
+              mechatronics systems from beginning to end, also in planning,
+              visual ideation, modeling, feasibility assessment and prototyping.
             </span>
           </Col>
         </div>

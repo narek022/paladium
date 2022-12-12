@@ -1,4 +1,4 @@
-import serv1 from "./pics/serv2.jpg"
+import serv1 from "./pics/serv2.jpg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./serv.css";
@@ -9,21 +9,64 @@ function StaffInfo() {
     <div className="staffcont">
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
-          <Col>
+          <Col className="itinfo">
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Our company designs, develops, implements, manages and optimizes
+              access to systems and information to answer your business
+              processing and infrastructure needs. We can provide IT service you
+              need to improve efficiency, add value and lower costs.
             </span>
+          </Col>
+          <Col className="stinfocol">
+            <p>Diagnosing and Repairing Running Gear Problems</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Diagnostics of Electrical equipment</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Replacement fuels and lubricants</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Filter replacement as needed</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Headlight adjustment</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Adaptation of the air intake flap</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Regulation of injection pump</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Regulation of diesel injection</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Checking of the Running Gear and replacement of it</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Checking of the Suspension and replacement of it</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Regulation of the Steering column</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Checking and charging of the Air conditioning (AC)</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Online or offline staff training (upon request)</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Checking of the Suspension and replacement of it</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Regulation of the Steering column</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Checking and charging of the Air conditioning (AC)</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Online or offline staff training (upon request)</p>
           </Col>
         </div>
         <div className="stimg">

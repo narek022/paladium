@@ -16,10 +16,10 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
+          <Col>Mechanical engineer, Specialist in Weapons and Accessories</Col>
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
+              Arsen dedicated more than 20 years of experience in maintaining
               vehicles, armored vehicles, operating and maintaining a wide
               variety of weaponry. He is specialized in inspecting, storing, and
               maintaining small arms and ammunition. Arsen has worked on a wide

@@ -16,20 +16,20 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
+          <Col>Aviation Composite Technician</Col>
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Ashot has more than 10 years of experience in working, repairing
+              and maintaining aircrafts. He has performed repairs using oven
+              processes and vacuum techniques to components with fibre glass,
+              aramid, carbon fibre and other advanced carbon and composed
+              materials. He maintained an aircraft's electronic instruments,
+              such as radio communication devices and equipment, radar systems,
+              and navigation aids, designing aircraft’s parts and propulsion
+              systems and in studying the aerodynamic performance of aircraft
+              and construction materials. He has passed courses of production
+              and operation of UAV, preparation and execution of UAV flights,
+              designing and building parts of UAV form composed materials.
             </span>
           </Col>
         </div>

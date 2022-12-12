@@ -1,4 +1,4 @@
-import serv1 from "./pics/serv4.jpg"
+import serv1 from "./pics/serv4.jpg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./serv.css";
@@ -9,21 +9,38 @@ function StaffInfo() {
     <div className="staffcont">
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
-          <Col>
+          <Col className="itinfo">
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              We provide online and offline training and testing services that
+              gives a host of benefits: enhance employee performance, boost
+              employee productivity, reduce employee turnover, and improve
+              company culture. Explore the importance of training programs for
+              employees and employers by pursuing a career in human resources.
+              We offer the highest professional training in Auto Service, IT and
+              Communication fields.
             </span>
+          </Col>
+          <Col className="stinfocol">
+            <p>IT trainings include:</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Cyber Security and Security Operations</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Networking and Servers</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Information Security</p>
+          </Col>
+          <Col className="stinfocol">
+            <p>Other training upon request</p>
+          </Col>
+          <Col className="stinfocol1">
+            <p>
+              Also we ensure the testing for our Customers, purchased products
+              that helps our clients to compare actual and expected results in
+              order to improve quality.
+            </p>
           </Col>
         </div>
         <div className="stimg">

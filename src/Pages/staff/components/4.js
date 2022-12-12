@@ -8,7 +8,7 @@ function StaffInfo() {
   return (
     <div className="staffcont">
       <Row xs={1} md={2} className="g-4">
-      <div className="stimg">
+        <div className="stimg">
           <Col>
             <Card>
               <Card.Img variant="top" src={karen} />
@@ -16,20 +16,24 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
+          <Col>Aviation engineer, Electrical engineer</Col>
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Karen has comprehensive working experience in aircraft
+              maintenance, tracking systems and helicopter parts maintenance, in
+              performing complex tasks in post and pre-flight stages. Skilled
+              specialist in disassembling and reassembling airframes, engines,
+              main and tail rotor assemblies and gear boxes and other component
+              parts as required to keep equipment in air-worthy condition. Karen
+              has deep knowledge of procedures, practices, and techniques of
+              airframe and power plant repairs on helicopters. Karen has
+              military educational background and military work experince. He
+              has passed courses of production and operation of UAV, preparation
+              and execution of flights, installation and dismantling of
+              electrical harnesses of unmanned aerial vehicles. He has designed
+              and tested electrical systems for automobiles and aircraft,
+              including communications systems, power generators, motors and
+              navigation systems.
             </span>
           </Col>
         </div>
