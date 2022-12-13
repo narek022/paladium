@@ -1,7 +1,8 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
-import img from "../../services/components/pics/serv2.jpg"
+import img from "../../services/components/pics/serv2.jpg";
+import "./body.css";
 
 function StaffInfo() {
   return (
@@ -10,18 +11,18 @@ function StaffInfo() {
         <div className="stinfo">
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Car covers are the smart solution that help your vehicle to stay
+              safe from dings, scratches, pollen, insects, and bird droppings.
+              Whether used as an emergency backup or an everyday item, the
+              benefits of utilizing a quality car cover is hard to exaggerate.
+              The lifespan of your vehicle can be enhanced both indoors and
+              outdoors by using a car cover, and using one can protect your
+              vehicle from damage ranging from dust particle scratches to blunt
+              force impact. When made with weatherproof materials, these covers
+              can keep a vehicle preserved incredibly well—anywhere. A
+              customized vehicle cover is a crucial piece of protection when you
+              want to keep your vehicle safe. For more information please
+              contact us!
             </span>
           </Col>
         </div>

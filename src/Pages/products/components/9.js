@@ -10,13 +10,12 @@ function StaffInfo() {
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
           <Col>
-            Our company, being an intermediary company, offers armor plates to
-            defend against threats including handguns, shot guns, and
-            high-powered rifles. The hard ballistic plate combines light weight
-            with extremely strong protection. The plate has minimal no
-            protection areas and not, as usual, a wide no protection edge. Thus,
-            it has a more comprehensive protection area on the entire plate.
+            Our company, being an intermediary company, offers different type of
+            accessories to maximize the potential oh weaponry. All of the
+            accessories are designed to enhance accuracy, shooting stability,
+            recoil control and carrying convenience.
           </Col>
+          <Col>For more information please contact us.</Col>
         </div>
         <div className="stimg">
           <Col>

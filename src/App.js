@@ -24,6 +24,8 @@ import Product5 from "./Pages/products/5"
 import Product6 from "./Pages/products/6"
 import Product7 from "./Pages/products/7"
 import Product8 from "./Pages/products/8"
+import Product9 from "./Pages/products/9";
+import Product10 from "./Pages/products/10";
 import Contact from "./Pages/contact/Contact";
 
 function App() {
@@ -53,6 +55,8 @@ function App() {
         <Route path="/BulletprofVest" element={<Product6 />} />
         <Route path="/Cover" element={<Product7 />} />
         <Route path="/Optics" element={<Product8 />} />
+        <Route path="/Accessories" element={<Product9 />} />
+        <Route path="/Communication" element={<Product10 />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

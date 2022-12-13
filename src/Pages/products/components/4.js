@@ -1,7 +1,8 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
-import img from "../../services/components/pics/serv2.jpg"
+import img from "../../services/components/pics/serv2.jpg";
+import "./body.css";
 
 function StaffInfo() {
   return (
@@ -10,20 +11,23 @@ function StaffInfo() {
         <div className="stinfo">
           <Col>
             <span>
-              Mechanical engineer, Specialist in Weapons and Accessories Arsen
-              dedicated more than 20 years of experience in maintaining
-              vehicles, armored vehicles, operating and maintaining a wide
-              variety of weaponry. He is specialized in inspecting, storing, and
-              maintaining small arms and ammunition. Arsen has worked on a wide
-              variety of projects, including maintaining missile defense
-              systems, testing body armor and developing conventional weapons.
-              Arsen has military educational background and in addition he
-              served in army for more than 20 years. Expert in weaponry and
-              defense items such as safety goggles, body armors and accessories,
-              helmets, optical devices, in applied research, simulation, new
-              content development, and validation.
+              Our company, being an intermediary company, offers different
+              technical spare parts for tracked vehicles. Our priority is our
+              clients' requirements and we ensure that the spare parts are
+              available just when customers need them.
             </span>
           </Col>
+          <Col className="prodcomp">We offer following items:</Col>
+          <Col className="prodcomp">Track Assemblies</Col>
+          <Col>Grouser Bars, Backing Plates, Rebars</Col>
+          <Col>Belting, Splice</Col>
+          <Col>Urethane Sprockets</Col>
+          <Col>Wheels & Tires</Col>
+          <Col>Axles, Spindles & Hubs</Col>
+          <Col>Suspension Components</Col>
+          <Col>Controlled Differentials, Parts And Rebuilds</Col>
+          <Col>Bearings, Seals & Gaskets</Col>
+          <Col className="prodcomp">For more information please contact us.</Col>
         </div>
         <div className="stimg">
           <Col>

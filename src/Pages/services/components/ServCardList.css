@@ -4,3 +4,8 @@
     border-radius: 50%;
     object-fit:cover;
 }
+
+.servcardcont .card-body {
+    width: 200px;
+    text-align: center;
+}

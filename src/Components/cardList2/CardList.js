@@ -10,6 +10,8 @@ import sheildIcon from "./pics/sheild.svg"
 import vestIcon from "./pics/vest.svg"
 import coverIcon from "./pics/cover.svg"
 import opticsIcon from "./pics/optics.svg"
+import accessoriesIcon from "./pics/accessories.svg"
+import communicationIcon from "./pics/communication.svg"
 import "./style3.css";
 
 function GridExample() {
@@ -48,6 +50,14 @@ function GridExample() {
             </Card.Body>
           </Card>
         </Col>
+        <Col className="col1">
+          <Card>
+            <Card.Img className="icon" variant="top" src={accessoriesIcon} />
+            <Card.Body>
+              <Card.Title><Link to="/Accessories">Accessories</Link></Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>
       </Row>
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
@@ -79,6 +89,14 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={opticsIcon} />
             <Card.Body>
               <Card.Title><Link to="/Optics">Optics</Link></Card.Title>
+            </Card.Body>
+          </Card>
+        </Col>
+        <Col className="col1">
+          <Card>
+            <Card.Img className="icon" variant="top" src={communicationIcon} />
+            <Card.Body>
+              <Card.Title><Link to="/Communication">Communication</Link></Card.Title>
             </Card.Body>
           </Card>
         </Col>

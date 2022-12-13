@@ -26,11 +26,19 @@ h3 {
 }
 
 .servcont .card-img-top {
-    width: 170px;
-    height: 170px;
+    width: 190px;
+    height: 190px;
     object-fit: cover;
 }
 
 .col .card {
     border: none;
+}
+
+.card-body{
+    width: 190px;
+}
+
+.servcont .card .card-body {
+    text-align: center;
 }

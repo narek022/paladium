@@ -37,7 +37,7 @@ function GridExample() {
         <Col>
           <Card>
             <Card.Img variant="top" src={serv2} />
-            <Card.Body>
+            <Card.Body className="card-body-list">
               <Card.Title>
                 <Link to="/MaintenanceOfCommunucationEquipment">
                   MAINTENANCE OF COMMUNICATION EQUIPMENT
