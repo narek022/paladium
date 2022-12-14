@@ -2,9 +2,10 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./ServCardList.css";
-import serv1 from "../../../Pages/services/components/pics/serv1.jpg";
-import serv2 from "../../../Pages/services/components/pics/serv2.jpg";
-import serv4 from "../../../Pages/services/components/pics/serv4.jpg";
+import serv1 from "../../../Components/carousel1/pics/Autoservice.jpg";
+import serv2 from "../../../Components/carousel1/pics/IT.jpg";
+import serv3 from "../../../Components/carousel1/pics/Communication.png";
+import serv4 from "../../../Components/carousel1/pics/Training.jpg";
 import { Link } from "react-router-dom";
 
 function GridExample() {
@@ -45,7 +46,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv2} />
+            <Card.Img variant="top" src={serv3} />
             <Card.Body>
               <Card.Title>
                 <Link to="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</Link>

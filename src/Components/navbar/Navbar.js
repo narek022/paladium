@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Navbar, NavbarBrand, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom"
-import logo from "./Pics/logo.png";
+import logo from "./Pics/logo1.png";
 import "./Navbar.css";
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
   window.addEventListener("scroll", change);
   return (
     <Navbar
-      fixed="top"
+      sticky="top"
       collapseOnSelect
       expand="lg"
       className={navbar ? "navbar active" : "navbar"}
@@ -26,8 +26,8 @@ export default function Header() {
         <NavbarBrand href="/">
           <img
             src={logo}
-            height={30}
-            width={30}
+            height={70}
+            width={100}
             className="d-inline-block align-top"
             alt="Logo"
           ></img>

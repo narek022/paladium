@@ -6,7 +6,7 @@ import "./body.css";
 import armen from "./pics/armen-koghq1.jpg";
 import arsen from "./pics/arsen-koghq.jpg";
 import ashot from "./pics/ashot-koghq1.jpg";
-import karen from "./pics/karen-koghq.jpg";
+import karen from "./pics/karen-koghq1.jpg";
 
 function GridExample() {
   return (

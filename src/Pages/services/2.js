@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
-import img from "../../Components/carousel1/pics/car2.jpg"
+import img from "../../Components/carousel1/pics/IT.jpg"
 import ServInfo from "./components/2"
 
 function Service2() {

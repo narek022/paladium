@@ -1,11 +1,11 @@
 .navbar {
-    padding-top: 20px;
+    background-color: rgba(64, 130, 162, 0.557);
     transition: 0.5s;
 }
 
 .navbar.active {
     padding-top: 20px;
-    background-color: rgba(28,49,74,0.95);
+    background-color: rgba(64, 130, 162, 0.557);
     transition: 0.5s;
 }
 
@@ -34,14 +34,14 @@
 }
 
 .show {
-    padding: 20px;
-    background-color: rgba(28,49,74,0.95);
+    padding: 10px;
+    background-color: rgba(64, 130, 162, 0.557);
     margin-left: 0;
 }
 
 .collapsing{
     padding: 20px;
-    background-color: rgba(28,49,74,0.95);
+    background-color: rgba(64, 130, 162, 0.557);
 }
 
 .collapse .mr-auto {

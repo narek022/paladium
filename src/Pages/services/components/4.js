@@ -1,4 +1,4 @@
-import serv1 from "./pics/serv4.jpg";
+import serv1 from "../../../Components/carousel1/pics/Training.jpg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./serv.css";

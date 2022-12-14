@@ -32,3 +32,10 @@
     text-decoration: none;
     color: white;
 }
+
+.carousel-inner img {
+    max-height: 300px;
+    width: 100%;
+    min-width: 500px;
+    object-fit: cover;
+}

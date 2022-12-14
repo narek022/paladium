@@ -18,3 +18,9 @@ a {
     color: black;
     transition: 0.2s;
 }
+
+.col .card .card-img-top {
+    max-width: 200px;
+    height: 190px;
+    object-fit: cover;
+}

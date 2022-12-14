@@ -2,3 +2,8 @@
     border: none;
     background-color: rgb(245, 245, 245);
 }
+
+.icon {
+    width: 60px;
+    max-height: 60px;
+}
