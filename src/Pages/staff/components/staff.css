@@ -5,3 +5,9 @@
     margin-top: 10px;
     padding: 20px;
 }
+
+.staffcont .stimg .card-img-top {
+    max-width: 200px;
+    height: 220px;
+    object-fit: cover;
+}

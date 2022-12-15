@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import { Link } from "react-router-dom";
 import "./body.css";
-import armen from "../../about/components/pics/armen-koghq1.jpg"
+import armen from "../../about/components/pics/armen-koghq1.jpg";
 import arsen from "../../about/components/pics/arsen-koghq.jpg";
 import ashot from "../../about/components/pics/ashot-koghq1.jpg";
 import karen from "../../about/components/pics/karen-koghq1.jpg";
