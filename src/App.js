@@ -15,15 +15,15 @@ import Service1 from "./Pages/services/1";
 import Service2 from "./Pages/services/2";
 import Service3 from "./Pages/services/3";
 import Service4 from "./Pages/services/4";
-import Products from "./Pages/products/Products"
-import Product1 from "./Pages/products/1"
-import Product2 from "./Pages/products/2"
-import Product3 from "./Pages/products/3"
-import Product4 from "./Pages/products/4"
-import Product5 from "./Pages/products/5"
-import Product6 from "./Pages/products/6"
-import Product7 from "./Pages/products/7"
-import Product8 from "./Pages/products/8"
+import Products from "./Pages/products/Products";
+import Product1 from "./Pages/products/1";
+import Product2 from "./Pages/products/2";
+import Product3 from "./Pages/products/3";
+import Product4 from "./Pages/products/4";
+import Product5 from "./Pages/products/5";
+import Product6 from "./Pages/products/6";
+import Product7 from "./Pages/products/7";
+import Product8 from "./Pages/products/8";
 import Product9 from "./Pages/products/9";
 import Product10 from "./Pages/products/10";
 import Contact from "./Pages/contact/Contact";
@@ -44,7 +44,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/AutoServices" element={<Service1 />} />
         <Route path="/ITServices" element={<Service2 />} />
-        <Route path="/MaintenanceOfCommunucationEquipment" element={<Service3 />} />
+        <Route
+          path="/MaintenanceOfCommunucationEquipment"
+          element={<Service3 />}
+        />
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />

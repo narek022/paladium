@@ -12,7 +12,6 @@ import coverIcon from "../../../Components/cardList2/pics/cover.svg"
 import opticsIcon from "../../../Components/cardList2/pics/optics.svg"
 import accessoriesIcon from "../../../Components/cardList2/pics/accessories.svg"
 import communicationIcon from "../../../Components/cardList2/pics/communication.svg"
-
 import "./style.css"
 
 function GridExample() {

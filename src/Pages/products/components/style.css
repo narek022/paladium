@@ -4,6 +4,14 @@
 }
 
 .icon {
-    width: 60px;
-    max-height: 60px;
+    width: 50px;
+    max-height: 50px;
+}
+
+.prodcont_1 .card {
+    text-align: start;
+}
+
+.prodcont_1 .card img {
+    margin-left: 16px;
 }
