@@ -19,17 +19,11 @@ function CarouselFadeExample() {
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={car2} alt="Second slide" />
         <Carousel.Caption className="caption">
-          <div>
-            <Link to="/services" className="link">Our Services</Link>
-          </div>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={car3} alt="First slide" />
         <Carousel.Caption className="caption">
-          <div>
-            <Link to="/products" className="link">Our Products</Link>
-          </div>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

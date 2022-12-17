@@ -16,7 +16,7 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
-          <Col>Aviation Composite Technician</Col>
+          <Col><h5>Aviation Composite Technician</h5></Col>
           <Col>
             <span>
               Ashot has more than 10 years of experience in working, repairing

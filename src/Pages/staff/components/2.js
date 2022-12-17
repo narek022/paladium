@@ -16,7 +16,7 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
-          <Col>Mechanical engineer, Specialist/Engineer in vehicles’ maintenance</Col>
+          <Col><h5>Mechanical engineer, Specialist/Engineer in vehicles’ maintenance</h5></Col>
           <Col>
             <span>
               Armen has military educational background, more than 20 years of

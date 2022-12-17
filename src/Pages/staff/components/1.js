@@ -16,7 +16,7 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
-          <Col>Mechanical engineer, Specialist in Weapons and Accessories</Col>
+          <Col><h5>Mechanical engineer, Specialist in Weapons and Accessories</h5></Col>
           <Col>
             <span>
               Arsen dedicated more than 20 years of experience in maintaining

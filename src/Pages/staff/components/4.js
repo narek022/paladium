@@ -16,7 +16,7 @@ function StaffInfo() {
           </Col>
         </div>
         <div className="stinfo">
-          <Col>Aviation engineer, Electrical engineer</Col>
+          <Col><h5>Aviation engineer, Electrical engineer</h5></Col>
           <Col>
             <span>
               Karen has comprehensive working experience in aircraft

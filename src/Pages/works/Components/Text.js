@@ -1,5 +1,6 @@
 import "./style.css";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap"
 
 export function Text() {
   return (
@@ -24,7 +25,7 @@ export function Text() {
         workflow.
       </p>
       <div className="projlink">
-        <Link>Our Projects</Link>
+        <Button>Our Projects</Button>
       </div>
     </div>
   );
