@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import img from "../../Components/carousel1/pics/car2.jpg"
-import ServInfo from "./components/8"
+import ServInfo from "./components/11"
 
 function Service1() {
   return (
@@ -11,7 +11,7 @@ function Service1() {
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">Daylight Optics</p>
+            <p className="abp">Night Vision  Optics</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

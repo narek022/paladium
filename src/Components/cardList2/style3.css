@@ -18,8 +18,7 @@ h3 {
 .prodcont1111 {
     background-color: rgb(245, 245, 245);
     border: 4px solid rgba(10, 37, 77, 0.566);
-    border-left: none;
-    border-right: none;
+    border: none;
     border-radius: 0px;
 }
 
@@ -34,4 +33,8 @@ h3 {
 .col1 .card {
     border: none;
     background-color: rgb(245, 245, 245);
+}
+
+.weaponry .h3, .optics .h3 {
+    text-align: center;
 }

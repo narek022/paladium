@@ -9,10 +9,12 @@ function StaffInfo() {
     <div className="staffcont">
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
-          <Col className="prodcomp">
-            Our company, being an intermediary company, offers daylight optics
-            such as binoculars, monoculars, safety goggles, spotting scopes for
-            use within daylight hours.
+        <Col className="prodcomp">
+            Our company, being an intermediary company, offers night vision
+            optics. Night vision devices may be passive, relying solely on
+            ambient light, or may be active, using an IR (infrared) illuminator
+            to better visualize the environment. The devices can be handheld but
+            many are head-mounted and attach to helmets.{" "}
           </Col>
         </div>
         <div className="stimg">

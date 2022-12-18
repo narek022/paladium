@@ -26,6 +26,9 @@ import Product7 from "./Pages/products/7";
 import Product8 from "./Pages/products/8";
 import Product9 from "./Pages/products/9";
 import Product10 from "./Pages/products/10";
+import Product11 from "./Pages/products/11";
+import Product12 from "./Pages/products/12";
+import Product13 from "./Pages/products/13";
 import Contact from "./Pages/contact/Contact";
 
 function App() {
@@ -44,10 +47,7 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/AutoServices" element={<Service1 />} />
         <Route path="/ITServices" element={<Service2 />} />
-        <Route
-          path="/MaintenanceOfCommunucationEquipment"
-          element={<Service3 />}
-        />
+        <Route path="/MaintenanceOfCommunucationEquipment"element={<Service3 />}/>
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />
@@ -60,6 +60,9 @@ function App() {
         <Route path="/Optics" element={<Product8 />} />
         <Route path="/Accessories" element={<Product9 />} />
         <Route path="/Communication" element={<Product10 />} />
+        <Route path="/NightVision" element={<Product11 />} />
+        <Route path="/ThermalVision" element={<Product12 />} />
+        <Route path="/Robots" element={<Product13 />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

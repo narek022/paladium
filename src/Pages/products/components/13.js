@@ -9,10 +9,13 @@ function StaffInfo() {
     <div className="staffcont">
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
-          <Col className="prodcomp">
-            Our company, being an intermediary company, offers daylight optics
-            such as binoculars, monoculars, safety goggles, spotting scopes for
-            use within daylight hours.
+          <Col>
+            Our company, being an intermediary company, offers communication
+            equipment that is used to present businesses with a unique
+            opportunity to observe sentiment, wellbeing and engagement
+            characteristics, all within the confines of purpose built software.
+            Communication tools often feature purpose built data gathering tools
+            enabling to observe data, trends and more in real time.
           </Col>
         </div>
         <div className="stimg">
