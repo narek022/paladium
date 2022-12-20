@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import img from "../../Components/carousel1/pics/Autoservice.jpg"
 import ServInfo from "./components/1"
 
+
 function Service1() {
   return (
     <div>

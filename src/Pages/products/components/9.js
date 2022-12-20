@@ -94,7 +94,7 @@ function GridExample() {
             </button>
             <Modal show={show3} onHide={handleClose3}>
               <Modal.Body>
-                <img className="modalImg" src={img3}></img>
+                <img className="modalImg-1" src={img3}></img>
               </Modal.Body>
             </Modal>
           </Card>

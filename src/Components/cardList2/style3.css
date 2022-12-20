@@ -52,3 +52,11 @@ h3 {
 .g-3 .g-4 {
     width: 82%;
 }
+
+.optics .row {
+    margin-left: 0;
+}
+
+.row-cols-md-2 {
+    margin-left: 0;
+}

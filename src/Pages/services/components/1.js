@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import "./serv.css";
 import { Row } from "react-bootstrap";
 
+
 function StaffInfo() {
   return (
     <div className="staffcont">
