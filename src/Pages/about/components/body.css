@@ -25,3 +25,7 @@ a {
     height: 190px;
     object-fit: cover;
 }
+
+.pageTitle {
+    text-align: center;
+}

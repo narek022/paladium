@@ -1,18 +1,18 @@
 .form {
-    width: 60%;
-    padding: 20px;
+    /* width: 60%; */
+    /* padding: 20px; */
 }
 
 .name, .mail {
-    max-width: 300px;
+    width: 200px;
 }
 
 .sub {
-    max-width: 500px;
+    width: 200px;
 }
 
 .mes {
-    max-width: 500px;
+    width: 250px;
 }
 
 .mes .form-control {
@@ -20,5 +20,5 @@
 }
 
 .form h3 {
-    padding: 10px;
+    width: 250px;
 }

@@ -5,3 +5,35 @@
 .stinfo .prodcomp {
     margin-top: 20px;
 }
+
+.col1 .card {
+    text-align: center;
+}
+
+.col1 .card .icon {
+    margin: 0;
+} 
+
+.robbody {
+    width: 400px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.robcol .col{
+    width: 400px;
+}
+
+.robotscont .stimg  .card-img-top {
+    width: 400px;
+    height: 150px;
+}
+
+.robotcard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.robotscont p {
+    margin: 20px;
+}

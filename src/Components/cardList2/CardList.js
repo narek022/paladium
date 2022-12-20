@@ -90,48 +90,54 @@ function GridExample() {
         <div className="h3">
           <h3>Weaponry</h3>
         </div>
-        <Row xs={1} md={2} className="g-4">
-          <Col className="col1">
-            <Card>
-              <Card.Img className="icon" variant="top" src={helmetIcon} />
-              <Card.Body>
-                <Card.Title>
-                  <Link to="/Helmets">Helmets</Link>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="col1">
-            <Card>
-              <Card.Img className="icon" variant="top" src={accessoriesIcon} />
-              <Card.Body>
-                <Card.Title>
-                  <Link to="/Accessories">Accessories</Link>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="col1">
-            <Card>
-              <Card.Img className="icon" variant="top" src={sheildIcon} />
-              <Card.Body>
-                <Card.Title>
-                  <Link to="/ArmorPlates">Armor Plates</Link>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col className="col1">
-            <Card>
-              <Card.Img className="icon" variant="top" src={vestIcon} />
-              <Card.Body>
-                <Card.Title>
-                  <Link to="/BulletprofVest">Bulletprof Vest</Link>
-                </Card.Title>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
+        <div className="g-3">
+          <Row xs={1} md={2} className="g-4">
+            <Col className="col1">
+              <Card>
+                <Card.Img className="icon" variant="top" src={helmetIcon} />
+                <Card.Body>
+                  <Card.Title>
+                    <Link to="/Helmets">Helmets</Link>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="col1">
+              <Card>
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  src={accessoriesIcon}
+                />
+                <Card.Body>
+                  <Card.Title>
+                    <Link to="/Accessories">Accessories</Link>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="col1">
+              <Card>
+                <Card.Img className="icon" variant="top" src={sheildIcon} />
+                <Card.Body>
+                  <Card.Title>
+                    <Link to="/ArmorPlates">Armor Plates</Link>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="col1">
+              <Card>
+                <Card.Img className="icon" variant="top" src={vestIcon} />
+                <Card.Body>
+                  <Card.Title>
+                    <Link to="/BulletprofVest">Bulletprof Vest</Link>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+          </Row>
+        </div>
       </div>
       <div className="optics">
         <div className="h3">
