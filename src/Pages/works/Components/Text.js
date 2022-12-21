@@ -25,7 +25,7 @@ export function Text() {
         workflow.
       </p>
       <div className="projlink">
-        <Button>Our Projects</Button>
+        <Button href="/projects">Our Projects</Button>
       </div>
     </div>
   );

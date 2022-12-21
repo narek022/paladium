@@ -26,7 +26,8 @@ function GridExample() {
       <div className="abb2">
         <div className="abtext">
           <h3>
-            <Link to="/staff">Our Staff</Link>
+            {/* <Link to="/staff">Our Staff</Link> */}
+            Our Staff
           </h3>
         </div>
         <Row xs={1} md={2} className="g-4">

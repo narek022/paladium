@@ -1,28 +1,12 @@
-.shadow {
+.page-footer {
     background-color: rgba(28,49,74);
     color: white;
     padding: 0;
     margin-top: 30px;
 }
 
-.shadow span {
-    color: white;
-    text-decoration: none;
-}
-
-.text-center {
-    color: white;
-}
-
-.ft p {
-    color: white;
-    text-decoration: none;
-}
-
-.box a {
-    text-decoration: none;
-}
-
-.box {
-    margin-top: 0;
+.col-md-6 h5 {
+    margin-left: 0;
+    margin-bottom: 20px;
+    text-align: start;
 }

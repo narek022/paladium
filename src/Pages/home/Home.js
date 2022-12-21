@@ -11,7 +11,7 @@ function Home() {
     <title>Home | PaladiumTechServiceLimited</title>
     <div>
       <Carousel />
-      <div className="text"><Link to="/services">Our Services</Link></div>
+      <div className="text"><Link to="/services">Our Service</Link></div>
       <CardList1 />
       <div className="text"><Link to="/products">Our Products</Link></div>
       <CardList2 />

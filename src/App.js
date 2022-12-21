@@ -30,6 +30,8 @@ import Product11 from "./Pages/products/11";
 import Product12 from "./Pages/products/12";
 import Product13 from "./Pages/products/13";
 import Contact from "./Pages/contact/Contact";
+import Projects from "./Pages/projects/projects";
+
 
 function App() {
   return (
@@ -47,7 +49,10 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/AutoServices" element={<Service1 />} />
         <Route path="/ITServices" element={<Service2 />} />
-        <Route path="/MaintenanceOfCommunucationEquipment"element={<Service3 />}/>
+        <Route
+          path="/MaintenanceOfCommunucationEquipment"
+          element={<Service3 />}
+        />
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />
@@ -64,6 +69,7 @@ function App() {
         <Route path="/ThermalVision" element={<Product12 />} />
         <Route path="/Robots" element={<Product13 />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/projects" element={<Projects />} />
       </Routes>
       <Footer />
     </div>

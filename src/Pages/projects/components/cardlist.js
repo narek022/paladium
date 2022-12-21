@@ -1,7 +1,6 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "./ServCardList.css";
 import serv1 from "../../../Components/carousel1/pics/Autoservice.jpg";
 import serv2 from "../../../Components/carousel1/pics/IT.jpg";
 import serv3 from "../../../Components/carousel1/pics/Communication.png";
