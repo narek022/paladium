@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
-import img from "../../services/components/pics/serv2.jpg";
+import img from "../pics/cover2.jpg";
 import "./body.css";
 
 function StaffInfo() {

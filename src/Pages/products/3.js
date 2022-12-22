@@ -8,7 +8,7 @@ function Service1() {
     <div>
       <title>UAV | PaladiumTechServiceLimited</title>
       <Carousel slide={false}>
-        <Carousel.Item>
+        <Carousel.Item> 
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
             <p className="abp">UAV</p>

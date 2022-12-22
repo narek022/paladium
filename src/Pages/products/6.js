@@ -6,7 +6,7 @@ import ServInfo from "./components/6"
 function Service1() {
   return (
     <div>
-      <title>AUTO SERVICES | PaladiumTechServiceLimited</title>
+      <title>Bulletprof Vest | PaladiumTechServiceLimited</title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />

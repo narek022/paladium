@@ -19,14 +19,17 @@ export function MapComponent() {
 
 function Map() {
   return (
-    <GoogleMap
-      zoom={20}
-      center={{ lat: 24.47130950724465, lng: 54.34962053201383 }}
-      mapContainerClassName="map-cont"
-    >
-      <Marker position={{ lat: 24.47130950724465, lng: 54.34962053201383 }} />
-    </GoogleMap>
-  );
+    <div className="map">
+      <GoogleMap 
+        className="map"
+        zoom={20}
+        center={{ lat: 24.47130950724465, lng: 54.34962053201383 }}
+        mapContainerClassName="map-cont"
+      >
+        <Marker position={{ lat: 24.47130950724465, lng: 54.34962053201383 }} />
+      </GoogleMap>
+    </div>
+    );
 }
 
 export default MapComponent;

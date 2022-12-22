@@ -1,11 +1,13 @@
 import Cardlist from "./components/cardlist"
 import Header from "./components/header"
+import Text from "./components/text"
 
 export default function Projects () {
     return (
         <div>
             <Header />
-            <Cardlist />
+            {/* <Cardlist /> */}
+            <Text />
         </div>
     )
 }

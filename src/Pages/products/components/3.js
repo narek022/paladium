@@ -1,12 +1,12 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
-import img from "../../services/components/pics/serv2.jpg";
+import img from "../pics/uav.jpg";
 import "./body.css";
 
 function StaffInfo() {
   return (
-    <div className="staffcont">
+    <div className="staffcont1">
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
           <Col>
@@ -73,8 +73,8 @@ function StaffInfo() {
           <Col>Control range   80km</Col>
         </div>
         <div className="stimg">
-          <Col>
-            <Card>
+          <Col className="uavcol">
+            <Card className="uavimg">
               <Card.Img variant="top" src={img} />
             </Card>
           </Col>

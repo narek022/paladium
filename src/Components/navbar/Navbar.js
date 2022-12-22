@@ -37,8 +37,8 @@ export default function Header() {
           <Nav className="mr-auto">
             <Link className="nl" to="/">Home</Link>
             <Link className="nl" to="/about">About Us</Link>
-            <Link className="nl" to="/works">Our Work</Link>
-            <Link className="nl" to="/services">Our Service</Link>
+            <Link className="nl" to="/work">Our Work</Link>
+            <Link className="nl" to="/service">Our Service</Link>
             <Link className="nl" to="/products">Our Products</Link>
             <Link className="nl" to="/contact">Contact Us</Link>
           </Nav>

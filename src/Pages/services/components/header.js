@@ -11,7 +11,7 @@ function NoTransitionExample() {
           alt="First slide"
         />
         <Carousel.Caption className='abcap'>
-          <p className='sep'>Our Services</p>
+          <p className='sep'>Our Service</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
