@@ -31,6 +31,10 @@ import Product12 from "./Pages/products/12";
 import Product13 from "./Pages/products/13";
 import Contact from "./Pages/contact/Contact";
 import Projects from "./Pages/projects/projects";
+import Exhibition1 from "./Pages/projects/ex/ex1";
+import Exhibition2 from "./Pages/projects/ex/ex2";
+
+
 
 
 function App() {
@@ -70,6 +74,8 @@ function App() {
         <Route path="/Robots" element={<Product13 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
+        <Route path="/exhibition1" element={<Exhibition1 />} />
+        <Route path="/exhibition2" element={<Exhibition2 />} />
       </Routes>
       <Footer />
     </div>

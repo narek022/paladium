@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import img1 from "./pics/1.jpg"
 import img2 from "./pics/2.jpg"
-import img3 from "./pics/3.png"
+import img3 from "./pics/3.jpg"
 import img4 from "./pics/4.jpg"
 import img5 from "./pics/5.jpg"
 import img6 from "./pics/6.gif"
@@ -94,7 +94,7 @@ function GridExample() {
             </button>
             <Modal show={show3} onHide={handleClose3}>
               <Modal.Body>
-                <img className="modalImg-1" src={img3}></img>
+                <img className="modalImg" src={img3}></img>
               </Modal.Body>
             </Modal>
           </Card>

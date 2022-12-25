@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-bootstrap";
 import car from "../../../Components/cardList2/pics/car.svg";
 import helmetIcon from "../../../Components/cardList2/pics/helmet.svg";
 import aiplaneIcon from "../../../Components/cardList2/pics/airplane.svg";
@@ -26,7 +26,7 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={car} />
             <Card.Body>
               <Card.Title>
-                <Link to="/AutoSpareParts">Auto Spare Parts</Link>
+                <NavLink href="/AutoSpareParts">Auto Spare Parts</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -36,7 +36,7 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={aiplaneIcon} />
             <Card.Body>
               <Card.Title>
-                <Link to="/UAV">UAV</Link>
+                <NavLink href="/UAV">UAV</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -46,9 +46,9 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={tractorIcon} />
             <Card.Body>
               <Card.Title>
-                <Link to="/TrackedVehiclesSpareParts">
+                <NavLink href="/TrackedVehiclesSpareParts">
                   Tracked Vehicles Spare Parts
-                </Link>
+                </NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -60,7 +60,7 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={coverIcon} />
             <Card.Body>
               <Card.Title>
-                <Link to="/Cover">Cover</Link>
+                <NavLink href="/Cover">Cover</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -70,7 +70,7 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={communicationIcon} />
             <Card.Body>
               <Card.Title>
-                <Link to="/Communication">Communication</Link>
+                <NavLink href="/Communication">Communication</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -80,7 +80,7 @@ function GridExample() {
             <Card.Img className="icon" variant="top" src={robotIcon} />
             <Card.Body>
               <Card.Title>
-                <Link to="/Robots">Robots</Link>
+                <NavLink href="/Robots">Robots</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -98,7 +98,7 @@ function GridExample() {
                 <Card.Img className="icon" variant="top" src={helmetIcon} />
                 <Card.Body>
                   <Card.Title>
-                    <Link to="/Helmets">Helmets</Link>
+                    <NavLink href="/Helmets">Helmets</NavLink>
                   </Card.Title>
                 </Card.Body>
               </Card>
@@ -112,7 +112,7 @@ function GridExample() {
                 />
                 <Card.Body>
                   <Card.Title>
-                    <Link to="/Accessories">Accessories</Link>
+                    <NavLink href="/Accessories">Accessories</NavLink>
                   </Card.Title>
                 </Card.Body>
               </Card>
@@ -122,7 +122,7 @@ function GridExample() {
                 <Card.Img className="icon" variant="top" src={sheildIcon} />
                 <Card.Body>
                   <Card.Title>
-                    <Link to="/ArmorPlates">Armor Plates</Link>
+                    <NavLink href="/ArmorPlates">Armor Plates</NavLink>
                   </Card.Title>
                 </Card.Body>
               </Card>
@@ -132,7 +132,7 @@ function GridExample() {
                 <Card.Img className="icon" variant="top" src={vestIcon} />
                 <Card.Body>
                   <Card.Title>
-                    <Link to="/BulletprofVest">Bulletprof Vest</Link>
+                    <NavLink href="/BulletprofVest">Bulletprof Vest</NavLink>
                   </Card.Title>
                 </Card.Body>
               </Card>
@@ -150,7 +150,7 @@ function GridExample() {
               <Card.Img className="icon" variant="top" src={opticsIcon} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/Optics">Daylight Optics</Link>
+                  <NavLink href="/Optics">Daylight Optics</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -160,7 +160,7 @@ function GridExample() {
               <Card.Img className="icon" variant="top" src={nightIcon} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/NightVision">Night Vision Optics</Link>
+                  <NavLink href="/NightVision">Night Vision Optics</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -170,7 +170,7 @@ function GridExample() {
               <Card.Img className="icon" variant="top" src={thermalIcon} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/ThermalVision">Thermal Vision Optics</Link>
+                  <NavLink href="/ThermalVision">Thermal Vision Optics</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>

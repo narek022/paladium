@@ -6,8 +6,7 @@ import serv1 from "./pics/autoservice.svg";
 import serv2 from "./pics/it.svg";
 import serv3 from "./pics/phone.svg";
 import serv4 from "./pics/test.svg";
-import { Link } from "react-router-dom";
-import { Button } from "bootstrap";
+import { NavLink } from "react-bootstrap";
 
 function GridExample() {
   return (
@@ -18,7 +17,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv1} />
             <Card.Body>
               <Card.Title>
-                <Link to="/AutoServices">AUTO SERVICES</Link>
+                <NavLink href="/AutoServices">Auto Services</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -28,22 +27,21 @@ function GridExample() {
             <Card.Img variant="top" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <Link to="/ITServices">IT SERVICES</Link>
+                <NavLink href="/ITServices">IT Services</NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
         </Col>
       </Row>
-
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
             <Card.Img variant="top" src={serv3} />
             <Card.Body className="card-body-list">
               <Card.Title>
-                <Link to="/MaintenanceOfCommunucationEquipment">
-                  MAINTENANCE OF COMMUNICATION EQUIPMENT
-                </Link>
+                <NavLink href="/MaintenanceOfCommunucationEquipment">
+                  Maintenance Of Communication Equipment
+                </NavLink>
               </Card.Title>
             </Card.Body>
           </Card>
@@ -53,7 +51,9 @@ function GridExample() {
             <Card.Img variant="top" src={serv4} />
             <Card.Body>
               <Card.Title>
-                <Link to="/TrainingAndTesting">TRAINING AND TESTING</Link>
+                <NavLink href="/TrainingAndTesting">
+                  Training And Testing
+                </NavLink>
               </Card.Title>
             </Card.Body>
           </Card>

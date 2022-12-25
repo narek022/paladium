@@ -25,8 +25,8 @@
 }
 
 .robotscont .stimg .card-img-top {
-    width: 400px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
 }
 
 .robotcard {
@@ -39,6 +39,11 @@
 }
 
 .staffcont1 .uavcol .uavimg .card-img-top {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.thermalimg {
     max-width: 300px;
     max-height: 200px;
 }

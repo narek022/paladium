@@ -1,7 +1,7 @@
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
-import img from "../../services/components/pics/serv2.jpg";
+import img from "../pics/thermal.jpg";
 import "./body.css";
 
 function StaffInfo() {
@@ -26,7 +26,7 @@ function StaffInfo() {
           <Col>Weight, g 420</Col>
           <Col className="prodcomp">For more information please contact us.</Col>
         </div>
-        <div className="stimg">
+        <div className="thermalimg">
           <Col>
             <Card>
               <Card.Img variant="top" src={img} />

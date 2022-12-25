@@ -2,9 +2,6 @@
     margin-top: 40px;
 }
 
-.cd {
-    text-align: center;
-}
 
 h3 {
     color: black;
@@ -26,19 +23,22 @@ h3 {
 }
 
 .servcont .card-img-top {
-    width: 210px;
-    height: 180px;
+    width: 50px;
+    max-height: 50px;
     object-fit: cover;
 }
 
 .col .card {
     border: none;
+    display: flex;
+    align-items: center;
 }
 
-.card-body{
-    width: 210px;
-}
 
 .servcont .card .card-body {
     text-align: center;
 }
+
+
+
+

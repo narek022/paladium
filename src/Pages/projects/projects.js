@@ -1,4 +1,4 @@
-import Cardlist from "./components/cardlist"
+
 import Header from "./components/header"
 import Text from "./components/text"
 

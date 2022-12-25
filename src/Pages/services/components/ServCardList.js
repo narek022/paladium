@@ -6,7 +6,7 @@ import serv1 from "../../../Components/carousel1/pics/Autoservice.jpg";
 import serv2 from "../../../Components/carousel1/pics/IT.jpg";
 import serv3 from "../../../Components/carousel1/pics/Communication.png";
 import serv4 from "../../../Components/carousel1/pics/Training.jpg";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-bootstrap";
 
 function GridExample() {
   return (
@@ -17,7 +17,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv1} />
             <Card.Body>
               <Card.Title>
-                <Link to="/AutoServices">AUTO SERVICES</Link>
+                <NavLink href="/AutoServices">AUTO SERVICES</NavLink>
               </Card.Title>
               <Card.Text>
                 Vehicles need maintenance from time to time. Our dedicated
@@ -33,7 +33,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv2} />
             <Card.Body>
               <Card.Title>
-                <Link to="/ITServices">IT SERVICES</Link>
+                <NavLink href="/ITServices">IT SERVICES</NavLink>
               </Card.Title>
               <Card.Text>
                 Our company designs, develops, implements, manages and optimizes
@@ -49,7 +49,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv3} />
             <Card.Body>
               <Card.Title>
-                <Link to="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</Link>
+                <NavLink href="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</NavLink>
               </Card.Title>
               <Card.Text>
                 Our experts are specialized in the installing, sustaining,
@@ -64,7 +64,7 @@ function GridExample() {
             <Card.Img variant="top" src={serv4} />
             <Card.Body>
               <Card.Title>
-                <Link to="/TrainingAndTesting">TRAINING AND TESTING</Link>
+                <NavLink href="/TrainingAndTesting">TRAINING AND TESTING</NavLink>
               </Card.Title>
               <Card.Text>
                 Also we ensure the testing for our Customers, purchased products

@@ -1,24 +1,3 @@
-.form {
-    /* width: 60%; */
-    /* padding: 20px; */
-}
-
-.name, .mail {
-    width: 200px;
-}
-
-.sub {
-    width: 200px;
-}
-
-.mes {
-    width: 250px;
-}
-
-.mes .form-control {
-    height: 100px;
-}
-
-.form h3 {
-    width: 250px;
+.feedback {
+    margin: 30px;
 }

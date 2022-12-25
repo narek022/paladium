@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { NavLink } from "react-bootstrap"
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
@@ -26,7 +26,7 @@ function GridExample() {
       <div className="abb2">
         <div className="abtext">
           <h3>
-            {/* <Link to="/staff">Our Staff</Link> */}
+            {/* <NavLink to="/staff">Our Staff</NavLink> */}
             Our Staff
           </h3>
         </div>
@@ -36,7 +36,7 @@ function GridExample() {
               <Card.Img variant="top" src={arsen} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/ArsenHovsepyan">ARSEN HOVSEPYAN</Link>
+                  <NavLink href="/ArsenHovsepyan">ARSEN HOVSEPYAN</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -46,7 +46,7 @@ function GridExample() {
               <Card.Img variant="top" src={armen} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/ArmenKhachatryan">ARMEN KHACHATRYAN</Link>
+                  <NavLink href="/ArmenKhachatryan">ARMEN KHACHATRYAN</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -56,7 +56,7 @@ function GridExample() {
               <Card.Img variant="top" src={ashot} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/AshotGevorgyan">ASHOT GEVORGYAN</Link>
+                  <NavLink href="/AshotGevorgyan">ASHOT GEVORGYAN</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>
@@ -66,7 +66,7 @@ function GridExample() {
               <Card.Img variant="top" src={karen} />
               <Card.Body>
                 <Card.Title>
-                  <Link to="/KarenGrigoryan">KAREN GRIGORYAN</Link>
+                  <NavLink href="/KarenGrigoryan">KAREN GRIGORYAN</NavLink>
                 </Card.Title>
               </Card.Body>
             </Card>

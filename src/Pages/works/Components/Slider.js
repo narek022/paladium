@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import img1 from "../../products/components/pics/1.jpg"
 import img2 from "../../products/components/pics/2.jpg"
-import img3 from "../../products/components/pics/3.png"
+import img3 from "../../products/components/pics/3.jpg"
 import img4 from "../../products/components/pics/4.jpg"
 import img5 from "../../products/components/pics/5.jpg"
 import img6 from "../../products/components/pics/6.gif"

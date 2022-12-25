@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Container, Navbar, NavbarBrand, Nav } from "react-bootstrap";
-import { Link } from "react-router-dom"
+import { NavLink } from "react-bootstrap";
 import logo from "./Pics/logo1.png";
 import "./Navbar.css";
 
@@ -35,12 +35,12 @@ export default function Header() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Link className="nl" to="/">Home</Link>
-            <Link className="nl" to="/about">About Us</Link>
-            <Link className="nl" to="/work">Our Work</Link>
-            <Link className="nl" to="/service">Our Service</Link>
-            <Link className="nl" to="/products">Our Products</Link>
-            <Link className="nl" to="/contact">Contact Us</Link>
+            <NavLink className="nl" href="/">Home</NavLink>
+            <NavLink className="nl" href="/about">About Us</NavLink>
+            <NavLink className="nl" href="/work">Our Work</NavLink>
+            <NavLink className="nl" href="/service">Our Service</NavLink>
+            <NavLink className="nl" href="/products">Our Products</NavLink>
+            <NavLink className="nl" href="/contact">Contact Us</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
