@@ -45,7 +45,7 @@ function StaffInfo() {
         <div className="stimg">
           <Col>
             <Card>
-              <Card.Img variant="top" src={img1} />
+              <Card.Img variant="top" src={img1} alt="#"/>
             </Card>
           </Col>
         </div>
@@ -73,7 +73,7 @@ function StaffInfo() {
         <div className="stimg">
           <Col>
             <Card>
-              <Card.Img variant="top" src={img2} />
+              <Card.Img variant="top" src={img2} alt="#"/>
             </Card>
           </Col>
         </div>

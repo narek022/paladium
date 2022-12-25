@@ -47,3 +47,12 @@
     max-width: 300px;
     max-height: 200px;
 }
+
+.helmettext p {
+    margin: 20px;
+}
+
+.helmetimg .g-4 .pic {
+    width: 150px;
+    height: 150px;
+}

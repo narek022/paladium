@@ -29,7 +29,7 @@ function StaffInfo() {
         <div className="thermalimg">
           <Col>
             <Card>
-              <Card.Img variant="top" src={img} />
+              <Card.Img variant="top" src={img} alt="#"/>
             </Card>
           </Col>
         </div>

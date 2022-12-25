@@ -14,7 +14,7 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv1} />
+            <Card.Img variant="top" alt="#" src={serv1} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/AutoServices">AUTO SERVICES</NavLink>
@@ -30,7 +30,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv2} />
+            <Card.Img variant="top" alt="#" src={serv2} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/ITServices">IT SERVICES</NavLink>
@@ -46,7 +46,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv3} />
+            <Card.Img variant="top" alt="#" src={serv3} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</NavLink>
@@ -61,7 +61,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv4} />
+            <Card.Img variant="top" alt="#" src={serv4} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/TrainingAndTesting">TRAINING AND TESTING</NavLink>

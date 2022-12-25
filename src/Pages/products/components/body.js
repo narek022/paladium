@@ -23,7 +23,7 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={car} />
+            <Card.Img className="icon" variant="top" alt="#" src={car} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/AutoSpareParts">Auto Spare Parts</NavLink>
@@ -33,7 +33,7 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={aiplaneIcon} />
+            <Card.Img className="icon" variant="top" alt="#" src={aiplaneIcon} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/UAV">UAV</NavLink>
@@ -43,7 +43,7 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={tractorIcon} />
+            <Card.Img className="icon" variant="top" alt="#" src={tractorIcon} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/TrackedVehiclesSpareParts">
@@ -57,7 +57,7 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={coverIcon} />
+            <Card.Img className="icon" variant="top" alt="#" src={coverIcon} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Cover">Cover</NavLink>
@@ -67,7 +67,7 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={communicationIcon} />
+            <Card.Img className="icon" variant="top" alt="#" src={communicationIcon} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Communication">Communication</NavLink>
@@ -77,7 +77,7 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" src={robotIcon} />
+            <Card.Img className="icon" variant="top" alt="#" src={robotIcon} />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Robots">Robots</NavLink>
@@ -95,7 +95,7 @@ function GridExample() {
           <Row xs={1} md={2} className="g-4">
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" src={helmetIcon} />
+                <Card.Img className="icon" variant="top" alt="#" src={helmetIcon} />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/Helmets">Helmets</NavLink>
@@ -108,7 +108,7 @@ function GridExample() {
                 <Card.Img
                   className="icon"
                   variant="top"
-                  src={accessoriesIcon}
+alt="#"                   src={accessoriesIcon}
                 />
                 <Card.Body>
                   <Card.Title>
@@ -119,7 +119,7 @@ function GridExample() {
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" src={sheildIcon} />
+                <Card.Img className="icon" variant="top" alt="#" src={sheildIcon} />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/ArmorPlates">Armor Plates</NavLink>
@@ -129,7 +129,7 @@ function GridExample() {
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" src={vestIcon} />
+                <Card.Img className="icon" variant="top" alt="#" src={vestIcon} />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/BulletprofVest">Bulletprof Vest</NavLink>
@@ -147,7 +147,7 @@ function GridExample() {
         <Row xs={1} md={2} className="g-4">
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" src={opticsIcon} />
+              <Card.Img className="icon" variant="top" alt="#" src={opticsIcon} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/Optics">Daylight Optics</NavLink>
@@ -157,7 +157,7 @@ function GridExample() {
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" src={nightIcon} />
+              <Card.Img className="icon" variant="top" alt="#" src={nightIcon} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/NightVision">Night Vision Optics</NavLink>
@@ -167,7 +167,7 @@ function GridExample() {
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" src={thermalIcon} />
+              <Card.Img className="icon" variant="top" alt="#" src={thermalIcon} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/ThermalVision">Thermal Vision Optics</NavLink>

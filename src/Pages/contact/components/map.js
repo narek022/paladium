@@ -4,7 +4,7 @@ import "./map.css";
 
 export function MapComponent() {
   const { isLoaded } = useLoadScript({
-    // googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
+    googleMapsApiKey: process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY,
   });
 
   if (!isLoaded) return <div>Loading...</div>;
@@ -18,15 +18,16 @@ export function MapComponent() {
 function Map() {
   return (
     <div className="map-cont">
-      <GoogleMap
-        bootstrapURLKeys={{ key: "AIzaSyAPt3B4wm0QHzboBu7ljCVEzxWEV2PJe-g" }}
-        className="map"
-        zoom={20}
-        center={{ lat: 24.47130950724465, lng: 54.34962053201383 }}
-        mapContainerClassName="map-cont"
-      >
-        <Marker position={{ lat: 24.47130950724465, lng: 54.34962053201383 }} />
-      </GoogleMap>
+        <GoogleMap
+          className="map"
+          zoom={18}
+          center={{ lat: 24.47130950724465, lng: 54.34962053201383 }}
+          mapContainerClassName="map-cont"
+        >
+          <Marker
+            position={{ lat: 24.47130950724465, lng: 54.34962053201383 }}
+          />
+        </GoogleMap>
     </div>
   );
 }

@@ -2,6 +2,9 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
 import img from "../pics/daylight.jpg";
+import img2 from "../pics/day.jpg";
+
+
 import "./body.css";
 
 function StaffInfo() {
@@ -18,7 +21,8 @@ function StaffInfo() {
         <div className="stimg">
           <Col>
             <Card>
-              <Card.Img variant="top" src={img} />
+              <Card.Img variant="top" src={img} alt="#"/>
+              <Card.Img variant="top" src={img2} alt="#"/>
             </Card>
           </Col>
         </div>

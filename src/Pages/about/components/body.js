@@ -33,7 +33,7 @@ function GridExample() {
         <Row xs={1} md={2} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" src={arsen} />
+              <Card.Img variant="top" alt="#" src={arsen} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/ArsenHovsepyan">ARSEN HOVSEPYAN</NavLink>
@@ -43,7 +43,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={armen} />
+              <Card.Img variant="top" alt="#" src={armen} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/ArmenKhachatryan">ARMEN KHACHATRYAN</NavLink>
@@ -53,7 +53,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={ashot} />
+              <Card.Img variant="top" alt="#" src={ashot} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/AshotGevorgyan">ASHOT GEVORGYAN</NavLink>
@@ -63,7 +63,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={karen} />
+              <Card.Img variant="top" alt="#" src={karen} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/KarenGrigoryan">KAREN GRIGORYAN</NavLink>

@@ -16,7 +16,7 @@ function GridExample() {
         <Row xs={1} md={2} className="g-4">
           <Col>
             <Card>
-              <Card.Img variant="top" src={arsen} />
+              <Card.Img variant="top" alt="#" src={arsen} />
               <Card.Body>
                 <Card.Title><Link to="/ArsenHovsepyan">ARSEN HOVSEPYAN</Link></Card.Title>
               </Card.Body>
@@ -24,7 +24,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={armen} />
+              <Card.Img variant="top" alt="#" src={armen} />
               <Card.Body>
                 <Card.Title><Link to="/ArmenKhachatryan">ARMEN KHACHATRYAN</Link></Card.Title>
               </Card.Body>
@@ -32,7 +32,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={ashot} />
+              <Card.Img variant="top" alt="#" src={ashot} />
               <Card.Body>
                 <Card.Title><Link to="/AshotGevorgyan">ASHOT GEVORGYAN</Link></Card.Title>
               </Card.Body>
@@ -40,7 +40,7 @@ function GridExample() {
           </Col>
           <Col>
             <Card>
-              <Card.Img variant="top" src={karen} />
+              <Card.Img variant="top" alt="#" src={karen} />
               <Card.Body>
                 <Card.Title><Link to="/KarenGrigoryan">KAREN GRIGORYAN</Link></Card.Title>
               </Card.Body>

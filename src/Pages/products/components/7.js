@@ -30,8 +30,8 @@ function StaffInfo() {
         <div className="stimg">
           <Col>
             <Card>
-              <Card.Img variant="top" src={img2} />
-              <Card.Img variant="top" src={img} />
+              <Card.Img variant="top" src={img2} alt="#" />
+              <Card.Img variant="top" src={img} alt="#"/>
             </Card>
           </Col>
         </div>
