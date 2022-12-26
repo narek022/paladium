@@ -13,7 +13,7 @@ function Contact() {
       <title>Contact Us | PaladiumTechServiceLimited </title>
       <Header />
       <Row xs={1} md={2} className="g-4">
-          <Col>
+          <Col className="emailcol">
             <Card>
               <Card.Body>
                 <Feedback />

@@ -25,9 +25,9 @@ function GridExample() {
   const handleShow2 = () => setShow2(true);
 
 
-  const [show3, setShow3] = useState(false);
-  const handleClose3 = () => setShow3(false);
-  const handleShow3 = () => setShow3(true);
+  // const [show3, setShow3] = useState(false);
+  // const handleClose3 = () => setShow3(false);
+  // const handleShow3 = () => setShow3(true);
 
 
   const [show4, setShow4] = useState(false);
@@ -87,7 +87,7 @@ function GridExample() {
             </Modal>
           </Card>
         </Col>
-        <Col className="slide">
+        {/* <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow3}>
               <Card.Img className="pic" variant="top" alt="#" src={img3} />
@@ -98,7 +98,7 @@ function GridExample() {
               </Modal.Body>
             </Modal>
           </Card>
-        </Col>
+        </Col> */}
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow4}>

@@ -62,7 +62,7 @@ function GridExample() {
           <Col className="slide">
             <Card>
               <button className="btn" onClick={handleShow3}>
-                <Card.Img className="pic" variant="top" src={img3} />
+                <Card.Img className="pic" variant="top"  src={img3} />
               </button>
               <Modal show={show3} onHide={handleClose3}>
                 <Modal.Body>

@@ -8,7 +8,7 @@ import { Link } from "react-router-dom"
 function CarouselFadeExample() {
   return (
     <Carousel fade>
-      <Carousel.Item interval={2000}>
+      <Carousel.Item >
         <img className="d-block w-100" src={car1} alt="First slide" />
         <Carousel.Caption className="caption">
           <div>
@@ -16,7 +16,7 @@ function CarouselFadeExample() {
           </div>
         </Carousel.Caption>
       </Carousel.Item>
-      <Carousel.Item interval={2000}>
+      {/* <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={car2} alt="Second slide" />
         <Carousel.Caption className="caption">
         </Carousel.Caption>
@@ -25,7 +25,7 @@ function CarouselFadeExample() {
         <img className="d-block w-100" src={car3} alt="First slide" />
         <Carousel.Caption className="caption">
         </Carousel.Caption>
-      </Carousel.Item>
+      </Carousel.Item> */}
     </Carousel>
   );
 }

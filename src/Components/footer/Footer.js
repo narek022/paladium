@@ -8,7 +8,7 @@ const Footer = () => (
         <div className="col-md-6 mt-md-0 mt-3">
           <h5 className="text">Paladium Tech Service Limited</h5>
           <p>49 Al Tatawwur St - Al Khalidiyah - W9 Abu Dhabi, UAE</p>
-          <p>Email: info@paladiumtechservicelimited.com</p>
+          <p>Email: info@paladiumtechserviceltd.com</p>
         </div>
 
         <hr className="clearfix w-100 d-md-none pb-0" />
@@ -16,7 +16,7 @@ const Footer = () => (
     </div>
 
     <div className="footer-copyright text-center py-3">
-      © 2022 Copyright: PaladiumTechServiceLimited
+      © 2022 Copyright: Paladiumtechserviceltd
     </div>
   </footer>
 );

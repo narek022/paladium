@@ -3,11 +3,50 @@ import Col from "react-bootstrap/Col";
 import { Row } from "react-bootstrap";
 import img from "../pics/uav.jpg";
 import img2 from "../pics/uav2.jpg";
+import React, { useState } from "react";
+import { Modal } from "react-bootstrap";
 import "./body.css";
 
 function StaffInfo() {
+
+  const [show, setShow] = useState(false);
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
+  const [show2, setShow2] = useState(false);
+  const handleClose2 = () => setShow2(false);
+  const handleShow2 = () => setShow2(true);
+
   return (
-    <div className="staffcont1">
+    <div className="sa">
+      <div className="helmetimg">
+        <Row xs={1} md={2} className="g-4">
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow}>
+                <Card.Img className="pic" variant="top" src={img} />
+              </button>
+              <Modal show={show} onHide={handleClose}>
+                <Modal.Body>
+                  <img className="modalImg" alt="#" src={img}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow2}>
+                <Card.Img className="pic" variant="top" src={img2} />
+              </button>
+              <Modal show={show2} onHide={handleClose2}>
+                <Modal.Body>
+                  <img className="modalImg" alt="#" src={img2}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+        </Row>
+      </div>
       <Row xs={1} md={2} className="g-4">
         <div className="stinfo">
           <Col>
@@ -18,7 +57,9 @@ function StaffInfo() {
               environment.
             </span>
           </Col>
-          <Col className="prodcomp">For more information please contact us.</Col>
+          <Col className="prodcomp">
+            For more information please contact us.
+          </Col>
           <Col className="prodcomp">
             The UAV aerial platform uses a highly sophisticated and low cost air
             frame made of foam material and designed as a hand launch system for
@@ -45,15 +86,19 @@ function StaffInfo() {
             reconnaissance UAV. The system is developed in accordance with
             modern market and various application environment.
           </Col>
-          <Col className="prodcomp">For more information please contact us.</Col>
           <Col className="prodcomp">
-            The conventional layout of single rotor helicopter with tail rotor
-            is adopted for UAV. UAV has two side mounting points for mounting
-            task, and photoelectric pod is set at the lower part of the nose in
-            which the camera can be hung. . All navigation, flight control and
-            system monitoring tasks of UAV can be completed in the flight
-            control module.
+            For more information please contact us.
           </Col>
+          <Row xs={1} md={2} className="g-4">
+            <Col className="prodcomp">
+              The conventional layout of single rotor helicopter with tail rotor
+              is adopted for UAV. UAV has two side mounting points for mounting
+              task, and photoelectric pod is set at the lower part of the nose
+              in which the camera can be hung. . All navigation, flight control
+              and system monitoring tasks of UAV can be completed in the flight
+              control module.
+            </Col>
+          </Row>
           <Col className="prodcomp">Main specifications are:</Col>
           <Col className="prodcomp">Max range 150km</Col>
           <Col>Max speed 120km/h</Col>
@@ -68,18 +113,10 @@ function StaffInfo() {
             firefight, land and resources survey.
           </Col>
           <Col className="prodcomp">Main specifications are:</Col>
-          <Col className="prodcomp">Max range	250km</Col>
-          <Col>Max speed	160km/h</Col>
-          <Col>Endurance	≥2.5h</Col>
-          <Col>Control range   80km</Col>
-        </div>
-        <div className="stimg">
-          <Col className="uavcol">
-            <Card className="uavimg">
-              <Card.Img variant="top" src={img} alt="#" />
-              <Card.Img variant="top" src={img2} alt="#" />
-            </Card>
-          </Col>
+          <Col className="prodcomp">Max range 250km</Col>
+          <Col>Max speed 160km/h</Col>
+          <Col>Endurance ≥2.5h</Col>
+          <Col>Control range 80km</Col>
         </div>
       </Row>
     </div>
