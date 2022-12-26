@@ -29,12 +29,14 @@ import Product10 from "./Pages/products/10";
 import Product11 from "./Pages/products/11";
 import Product12 from "./Pages/products/12";
 import Product13 from "./Pages/products/13";
+import Product14 from "./Pages/products/14";
+import Product15 from "./Pages/products/15";
+import Product16 from "./Pages/products/16";
+import Product17 from "./Pages/products/17";
 import Contact from "./Pages/contact/Contact";
 import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
-
-
 
 
 function App() {
@@ -72,6 +74,10 @@ function App() {
         <Route path="/NightVision" element={<Product11 />} />
         <Route path="/ThermalVision" element={<Product12 />} />
         <Route path="/Robots" element={<Product13 />} />
+        <Route path="/UAV_EPO" element={<Product14 />} />
+        <Route path="/UAV_AG-10" element={<Product15 />} />
+        <Route path="/JP-R30" element={<Product16 />} />
+        <Route path="/JP-REOD400" element={<Product17 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/exhibition1" element={<Exhibition1 />} />

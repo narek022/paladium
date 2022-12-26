@@ -1,4 +1,4 @@
-import ashot from "../../about/components/pics/ashot-koghq1.jpg";
+import ashot from "../../about/components/pics/Ashot22.jpg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./staff.css";

@@ -1,4 +1,4 @@
-import armen from "../../about/components/pics/armen-koghq1.jpg";
+import armen from "../../about/components/pics/Armen.jpg";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./staff.css";

@@ -60,3 +60,7 @@
 .sa .stinfo {
     width: 80% !important;
 }
+
+.uav .btn {
+  margin: 30px;
+}

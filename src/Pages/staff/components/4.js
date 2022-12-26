@@ -1,4 +1,4 @@
-import karen from "../../about/components/pics/karen-koghq1.jpg";
+import karen from "../../about/components/pics/Karen.JPG";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./staff.css";

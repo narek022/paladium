@@ -1,4 +1,4 @@
-import arsen from "../../about/components/pics/arsen-koghq.jpg";
+import arsen from "../../about/components/pics/Arsen.JPG";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import "./staff.css";
