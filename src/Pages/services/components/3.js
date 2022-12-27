@@ -64,7 +64,7 @@ function StaffInfo() {
             <p>Online and offline staff training upon request.</p>
           </Col>
           <Col className="stinfocol">
-            <p>Cable diagnostics and update;</p>
+            <p>Cable diagnostics and update․</p>
           </Col>
         </div>
         <div className="stimg">
