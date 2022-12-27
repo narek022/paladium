@@ -8,3 +8,7 @@
 .servcardcont .card-body {
     text-align: center;
 }
+
+.servcardcont .col {
+    width: 21%;
+}

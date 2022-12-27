@@ -10,7 +10,7 @@ import karen from "./pics/karen-koghq1.jpg";
 
 function GridExample() {
   return (
-    <div>
+    <div className="aboutus1">
       <div className="abb1">
         <span>
           PaladiumTechService Limited is a multi-directional company specialized
