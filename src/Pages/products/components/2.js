@@ -41,7 +41,7 @@ function GridExample() {
                 <Card.Img className="pic" variant="top" src={img} />
               </button>
               <Modal show={show} onHide={handleClose}>
-                <Modal.Body>
+                <Modal.Body className="modalbody1">
                   <img className="modalImg" alt="#" src={img}></img>
                 </Modal.Body>
               </Modal>

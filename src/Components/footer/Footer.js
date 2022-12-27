@@ -9,9 +9,8 @@ const Footer = () => (
           <h5 className="text">Paladium Tech Service Limited</h5>
           <p>49 Al Tatawwur St - Al Khalidiyah - W9 Abu Dhabi, UAE</p>
           <p>Email: info@paladiumtechserviceltd.com</p>
-          <p>phone: +971 52 725 68 19</p>
+          <p>Phone: +971 52 725 68 19</p>
         </div>
-
         <hr className="clearfix w-100 d-md-none pb-0" />
       </div>
     </div>

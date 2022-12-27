@@ -1,4 +1,5 @@
 import { Button } from "react-bootstrap";
+import "./body.css"
 
 export default function Uav () {
   return (

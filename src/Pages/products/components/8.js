@@ -5,8 +5,6 @@ import Modal from "react-bootstrap/Modal";
 import React, { useState } from "react";
 import img from "../pics/daylight.jpg";
 import img2 from "../pics/day.jpg";
-
-
 import "./body.css";
 
 function StaffInfo() {
@@ -21,7 +19,7 @@ function StaffInfo() {
 
   return (
     <div className="workcont">
-        <div className="helmettext">
+        <div className="opttext">
           <p>
             Our company, being an intermediary company, offers daylight optics
             such as binoculars, monoculars, safety goggles, spotting scopes for
