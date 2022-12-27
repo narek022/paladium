@@ -17,7 +17,6 @@ function StaffInfo() {
           <Col className="prodcomp">
             For more information please contact us.
           </Col>
-          <Row xs={1} md={2} className="g-4">
             <Col className="prodcomp">
               The conventional layout of single rotor helicopter with tail rotor
               is adopted for UAV. UAV has two side mounting points for mounting
@@ -26,7 +25,6 @@ function StaffInfo() {
               and system monitoring tasks of UAV can be completed in the flight
               control module.
             </Col>
-          </Row>
           <Col className="prodcomp">Main specifications are:</Col>
           <Col className="prodcomp">Max range 150km</Col>
           <Col>Max speed 120km/h</Col>
