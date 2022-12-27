@@ -93,10 +93,7 @@
 }
 
 .modalbody1 {
-  box-sizing: content-box !important;
+display: flex;
+justify-content: center;
 }
 
-.modalbody1 .modalImg {
-  margin-left: 10%;
-  margin-right: 10%;
-}
