@@ -9,6 +9,7 @@
     text-align: center;
 }
 
-/* .servcardcont .col {
-    width: 21%;
-} */
+.servcardcont .col {
+    max-width: 200px;
+    min-width: 150px;
+}

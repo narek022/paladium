@@ -35,7 +35,7 @@ function GridExample() {
       </div>
       <div className="helmetimg">
         <Row xs={1} md={2} className="g-4">
-          <Col className="slide">
+          <Col className="slide1">
             <Card>
               <button className="btn" onClick={handleShow}>
                 <Card.Img className="pic" variant="top" src={img} />
@@ -47,7 +47,7 @@ function GridExample() {
               </Modal>
             </Card>
           </Col>
-          <Col className="slide">
+          <Col className="slide1">
             <Card>
               <button className="btn" onClick={handleShow2}>
                 <Card.Img className="pic" variant="top" src={img2} />
@@ -59,7 +59,7 @@ function GridExample() {
               </Modal>
             </Card>
           </Col>
-          <Col className="slide">
+          <Col className="slide1">
             <Card>
               <button className="btn" onClick={handleShow3}>
                 <Card.Img className="pic" variant="top"  src={img3} />

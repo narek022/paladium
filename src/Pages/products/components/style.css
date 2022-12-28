@@ -15,3 +15,13 @@
 .prodcont_1 .card img {
     margin-left: 16px;
 }
+
+.prodcont_1 .col1 {
+    max-width: 300px;
+    min-width: 150px;
+}
+
+.prodcont_1 .weaponry .col1 {
+    max-width: 200px;
+    min-width: 150px;
+}

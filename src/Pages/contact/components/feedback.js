@@ -3,11 +3,11 @@ import "./feedback.css";
 function BasicExample() {
   return (
     <div className="feedback">
-      <h5>
+      <p>
         You can contact us.
-      </h5>
-      <h5>by email: info@paladiumtechserviceltd.com</h5>
-      <h5>by phone: +971 52 725 68 19</h5>
+      </p>
+      <p>by email: info@paladiumtechserviceltd.com</p>
+      <p>by phone: +971 52 725 68 19</p>
     </div>
   );
 }
