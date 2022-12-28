@@ -8,6 +8,7 @@
 
 .staffcont .stimg .card-img-top {
     max-width: 200px;
+    min-width: 200px;
     height: 220px;
     object-fit: cover;
 }
