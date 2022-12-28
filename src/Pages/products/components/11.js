@@ -36,7 +36,7 @@ function StaffInfo() {
               </button>
               <Modal show={show} onHide={handleClose}>
                 <Modal.Body>
-                  <img className="modalImg" alt="#" src={img}></img>
+                  <img className="modalImg" alt="modalImg" src={img}></img>
                 </Modal.Body>
               </Modal>
             </Card>
@@ -48,7 +48,7 @@ function StaffInfo() {
               </button>
               <Modal show={show2} onHide={handleClose2}>
                 <Modal.Body>
-                  <img className="modalImg" alt="#" src={img2}></img>
+                  <img className="modalImg" alt="modalImg" src={img2}></img>
                 </Modal.Body>
               </Modal>
             </Card>

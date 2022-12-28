@@ -13,7 +13,7 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" alt="#" src={serv1} />
+            <Card.Img variant="top" alt="AutoServices" src={serv1} />
             <Card.Body>
               <Card.Title>
                 <Link to="/AutoServices">AUTO SERVICES</Link>
@@ -29,7 +29,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" alt="#" src={serv2} />
+            <Card.Img variant="top" alt="ITServices" src={serv2} />
             <Card.Body>
               <Card.Title>
                 <Link to="/ITServices">IT SERVICES</Link>
@@ -45,7 +45,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" alt="#" src={serv3} />
+            <Card.Img variant="top" alt="MaintenanceOfCommunucationEquipment" src={serv3} />
             <Card.Body>
               <Card.Title>
                 <Link to="/MaintenanceOfCommunucationEquipment">MAINTENANCE OF COMMUNICATION EQUIPMENT</Link>
@@ -60,7 +60,7 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" alt="#" src={serv4} />
+            <Card.Img variant="top" alt="TrainingAndTesting" src={serv4} />
             <Card.Body>
               <Card.Title>
                 <Link to="/TrainingAndTesting">TRAINING AND TESTING</Link>

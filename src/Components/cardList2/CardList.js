@@ -23,7 +23,12 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={car} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="AutoSpareParts"
+              src={car}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/AutoSpareParts">Auto Spare Parts</NavLink>
@@ -33,7 +38,12 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={aiplaneIcon} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="UAV"
+              src={aiplaneIcon}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/UAV">UAV</NavLink>
@@ -43,7 +53,12 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={tractorIcon} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="TrackedVehiclesSpareParts"
+              src={tractorIcon}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/TrackedVehiclesSpareParts">
@@ -57,7 +72,12 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={coverIcon} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="Cover"
+              src={coverIcon}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Cover">Cover</NavLink>
@@ -67,7 +87,12 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={communicationIcon} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="Communication"
+              src={communicationIcon}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Communication">Communication</NavLink>
@@ -77,7 +102,12 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img className="icon" variant="top" alt="#" src={robotIcon} />
+            <Card.Img
+              className="icon"
+              variant="top"
+              alt="Robots"
+              src={robotIcon}
+            />
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Robots">Robots</NavLink>
@@ -94,7 +124,12 @@ function GridExample() {
           <Row xs={1} md={2} className="g-4">
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" alt="#" src={helmetIcon} />
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="Helmets"
+                  src={helmetIcon}
+                />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/Helmets">Helmets</NavLink>
@@ -107,7 +142,8 @@ function GridExample() {
                 <Card.Img
                   className="icon"
                   variant="top"
-alt="#"                   src={accessoriesIcon}
+                  alt="Accessories"
+                  src={accessoriesIcon}
                 />
                 <Card.Body>
                   <Card.Title>
@@ -118,7 +154,12 @@ alt="#"                   src={accessoriesIcon}
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" alt="#" src={sheildIcon} />
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="ArmorPlates"
+                  src={sheildIcon}
+                />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/ArmorPlates">Armor Plates</NavLink>
@@ -128,7 +169,12 @@ alt="#"                   src={accessoriesIcon}
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img className="icon" variant="top" alt="#" src={vestIcon} />
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="BulletprofVest"
+                  src={vestIcon}
+                />
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/BulletprofVest">Bulletprof Vest</NavLink>
@@ -146,7 +192,12 @@ alt="#"                   src={accessoriesIcon}
         <Row xs={1} md={2} className="g-4">
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" alt="#" src={opticsIcon} />
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="Optics"
+                src={opticsIcon}
+              />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/Optics">Daylight Optics</NavLink>
@@ -156,7 +207,7 @@ alt="#"                   src={accessoriesIcon}
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" alt="#" src={nightIcon} />
+              <Card.Img className="icon" variant="top" alt="NightVision" src={nightIcon} />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/NightVision">Night Vision Optics</NavLink>
@@ -166,7 +217,12 @@ alt="#"                   src={accessoriesIcon}
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" alt="#" src={thermalIcon} />
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="ThermalVision"
+                src={thermalIcon}
+              />
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/ThermalVision">Thermal Vision Optics</NavLink>

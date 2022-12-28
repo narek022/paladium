@@ -35,26 +35,26 @@ function StaffInfo() {
       </div>
         <div className="helmetimg">
           <Row xs={1} md={2} className="g-4">
-            <Col className="slide">
+            <Col className="slide1">
               <Card>
                 <button className="btn" onClick={handleShow}>
-                  <Card.Img className="pic" variant="top" src={img} />
+                  <Card.Img className="pic1" variant="top" src={img} />
                 </button>
                 <Modal show={show} onHide={handleClose}>
-                  <Modal.Body>
-                    <img className="modalImg" alt="#" src={img}></img>
+                  <Modal.Body className="modalbody1">
+                    <img className="modalImg" alt="modalImg" src={img}></img>
                   </Modal.Body>
                 </Modal>
               </Card>
             </Col>
-            <Col className="slide">
+            <Col className="slide1">
               <Card>
                 <button className="btn" onClick={handleShow2}>
-                  <Card.Img className="pic" variant="top" src={img2} />
+                  <Card.Img className="pic1" variant="top" src={img2} />
                 </button>
                 <Modal show={show2} onHide={handleClose2}>
-                  <Modal.Body>
-                    <img className="modalImg" alt="#" src={img2}></img>
+                  <Modal.Body className="modalbody1">
+                    <img className="modalImg" alt="modalImg" src={img2}></img>
                   </Modal.Body>
                 </Modal>
               </Card>

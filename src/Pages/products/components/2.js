@@ -42,7 +42,7 @@ function GridExample() {
               </button>
               <Modal show={show} onHide={handleClose}>
                 <Modal.Body className="modalbody1">
-                  <img className="modalImg" alt="#" src={img}></img>
+                  <img className="modalImg" alt="modalImg" src={img}></img>
                 </Modal.Body>
               </Modal>
             </Card>
@@ -54,7 +54,7 @@ function GridExample() {
               </button>
               <Modal show={show2} onHide={handleClose2}>
                 <Modal.Body>
-                  <img className="modalImg" alt="#" src={img2}></img>
+                  <img className="modalImg" alt="modalImg" src={img2}></img>
                 </Modal.Body>
               </Modal>
             </Card>
@@ -66,7 +66,7 @@ function GridExample() {
               </button>
               <Modal show={show3} onHide={handleClose3}>
                 <Modal.Body>
-                  <img className="modalImg" alt="#" src={img3}></img>
+                  <img className="modalImg" alt="modalImg" src={img3}></img>
                 </Modal.Body>
               </Modal>
             </Card>

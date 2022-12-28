@@ -66,7 +66,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow}>
-              <Card.Img className="pic" variant="top" alt="#" src={img1} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img1} />
             </button>
             <Modal show={show} onHide={handleClose}>
               <Modal.Body>
@@ -78,7 +78,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow2}>
-              <Card.Img className="pic" variant="top" alt="#" src={img2} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img2} />
             </button>
             <Modal show={show2} onHide={handleClose2}>
               <Modal.Body>
@@ -90,7 +90,7 @@ function GridExample() {
         {/* <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow3}>
-              <Card.Img className="pic" variant="top" alt="#" src={img3} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img3} />
             </button>
             <Modal show={show3} onHide={handleClose3}>
               <Modal.Body>
@@ -102,7 +102,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow4}>
-              <Card.Img className="pic" variant="top" alt="#" src={img4} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img4} />
             </button>
             <Modal show={show4} onHide={handleClose4}>
               <Modal.Body>
@@ -114,7 +114,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow5}>
-              <Card.Img className="pic" variant="top" alt="#" src={img5} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img5} />
             </button>
             <Modal show={show5} onHide={handleClose5}>
               <Modal.Body>
@@ -126,7 +126,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow6}>
-              <Card.Img className="pic" variant="top" alt="#" src={img6} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img6} />
             </button>
             <Modal show={show6} onHide={handleClose6}>
               <Modal.Body>
@@ -138,7 +138,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow7}>
-              <Card.Img className="pic" variant="top" alt="#" src={img7} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img7} />
             </button>
             <Modal show={show7} onHide={handleClose7}>
               <Modal.Body>
@@ -150,7 +150,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow8}>
-              <Card.Img className="pic" variant="top" alt="#" src={img8} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img8} />
             </button>
             <Modal show={show8} onHide={handleClose8}>
               <Modal.Body>
@@ -162,7 +162,7 @@ function GridExample() {
         <Col className="slide">
           <Card>
             <button className="btn" onClick={handleShow9}>
-              <Card.Img className="pic" variant="top" alt="#" src={img9} />
+              <Card.Img className="pic" variant="top" alt="accessory" src={img9} />
             </button>
             <Modal show={show9} onHide={handleClose9}>
               <Modal.Body>

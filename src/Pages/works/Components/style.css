@@ -3,10 +3,19 @@
     /* height: 100px; */
 }
 
-.workcont .slide {
+.workcont .pic1 {
+    width: 200px;
+    /* height: 100px; */
+}
 
+.workcont .slide {
     width: 100px;
 }
+
+.workcont .slide1 {
+    width: 200px;
+}
+
 .modalImg {
     max-width: 100%;
     max-height: 100%;
