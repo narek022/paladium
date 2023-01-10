@@ -1,5 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
-import img from "../../../Components/carousel1/pics/products.webp"
+import img from "../../../Components/carousel1/pics/prod.jpg"
 
 function NoTransitionExample() {
   return (

@@ -64,3 +64,6 @@
     padding: 0;
     border: none;
 }
+.navbar-toggler {
+    margin-right: 15px;
+}

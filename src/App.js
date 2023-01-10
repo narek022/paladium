@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "./Components/navbar/Navbar";
+import BackToTop from "./Components/BackToTop/Back"
 import Footer from "./Components/footer/Footer";
 import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
@@ -83,6 +84,7 @@ function App() {
         <Route path="/exhibition1" element={<Exhibition1 />} />
         <Route path="/exhibition2" element={<Exhibition2 />} />
       </Routes>
+      <BackToTop />
       <Footer />
     </div>
   );
