@@ -33,7 +33,7 @@ export default function Back() {
             width: "50px",
             fontSize: "37px",
             border: "none",
-            borderRadius: "50%",
+            borderRadius: "25px",
             backgroundColor: "rgba(64, 130, 162, 0.5)",
             color: "white",
           }}

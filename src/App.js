@@ -38,11 +38,14 @@ import Contact from "./Pages/contact/Contact";
 import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
+import ScrollToTop from "./Components/Scroll/ScrollToTop";
+import Error from "./Pages/error/Error";
 
 
 function App() {
   return (
     <div className="App">
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -83,6 +86,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/exhibition1" element={<Exhibition1 />} />
         <Route path="/exhibition2" element={<Exhibition2 />} />
+        <Route path="/*" element={<Error />} />
       </Routes>
       <BackToTop />
       <Footer />

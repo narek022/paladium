@@ -17,10 +17,6 @@
     margin-bottom: 60px;
 }
 
-.btn {
-    background-color: aliceblue;
-}
-
 .navbar-nav a {
     color: white;
     font-weight: 600;
@@ -29,7 +25,10 @@
 }
 
 .navbar-nav a:hover {
-    color: rgb(43, 28, 210);
+    color: black
+}
+.navbar-nav a:focus {
+    color: black;
 }
 
 .nl {
@@ -66,4 +65,8 @@
 }
 .navbar-toggler {
     margin-right: 15px;
+}
+
+.active {
+    color: black;
 }
