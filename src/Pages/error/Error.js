@@ -17,7 +17,7 @@ export default function Error () {
             <title>Error Page</title>
             <div>
             <img src={img}></img>
-            <div><span>You will be redirect in home page after 3 seconds...</span></div>
+            <div><span>You will be redirect in home page after 5 seconds...</span></div>
             </div>
         </div>
     )

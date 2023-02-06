@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./Components/navbar/Navbar";
 import BackToTop from "./Components/BackToTop/Back"
 import Footer from "./Components/footer/Footer";
+import Footer2 from "./Components/footer/Footer2"
 import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
 import Staff from "./Pages/staff/Staff";
@@ -59,10 +60,7 @@ function App() {
         <Route path="/service" element={<Services />} />
         <Route path="/AutoServices" element={<Service1 />} />
         <Route path="/ITServices" element={<Service2 />} />
-        <Route
-          path="/MaintenanceOfCommunucationEquipment"
-          element={<Service3 />}
-        />
+        <Route path="/MaintenanceOfCommunucationEquipment"element={<Service3 />}/>
         <Route path="/TrainingAndTesting" element={<Service4 />} />
         <Route path="/products" element={<Products />} />
         <Route path="/AutoSpareParts" element={<Product1 />} />

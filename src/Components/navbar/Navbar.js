@@ -37,22 +37,22 @@ export default function Header() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
             <NavItem>
-              <NavLink className="active" to="/">Home</NavLink>
+              <NavLink className="nav-link" to="/">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/about">About Us</NavLink>
+              <NavLink className='nav-link' to="/about">About Us</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/work">Our Work</NavLink>
+              <NavLink className='nav-link' to="/work">Our Work</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/service">Our Service</NavLink>
+              <NavLink className='nav-link' to="/service">Our Service</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/products">Our Products</NavLink>
+              <NavLink className='nav-link' to="/products">Our Products</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/contact">Contact Us</NavLink>
+              <NavLink className='nav-link' to="/contact">Contact Us</NavLink>
             </NavItem>
           </Nav>
         </Navbar.Collapse>
