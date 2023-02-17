@@ -6,12 +6,12 @@ import ServInfo from "./components/20"
 function Service1() {
   return (
     <div>
-      <title>FEAR-01P | PaladiumTechServiceLimited</title>
+      <title>GIR-01P | PaladiumTechServiceLimited</title>
       <Carousel slide={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={img} alt="First slide" />
           <Carousel.Caption className="abcap">
-            <p className="abp">FEAR-01P</p>
+            <p className="abp">GIR-01P</p>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>

@@ -27,8 +27,8 @@ export default function Header() {
         <NavbarBrand href="/">
           <img
             src={logo}
-            height={70}
-            width={100}
+            height={80}
+            width={110}
             className="d-inline-block align-top"
             alt="Logo"
           ></img>

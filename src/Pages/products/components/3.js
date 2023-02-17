@@ -11,13 +11,13 @@ function ToolbarBasicExample() {
           <Button href="/UAV_EPO">EPO-02P</Button>
         </ButtonGroup>
         <ButtonGroup aria-label="Third group">
-          <Button href="/UAV_AG-10">AG-10P</Button>
+          <Button href="/UAV_AG-10">RIG-01P</Button>
         </ButtonGroup>
         <ButtonGroup aria-label="Third group">
           <Button href="/VX-5P">VX-5P</Button>
         </ButtonGroup>
         <ButtonGroup aria-label="Third group">
-          <Button href="/FEAR-01P">FEAR-01P,</Button>
+          <Button href="/FEAR-01P">GIR-01P</Button>
         </ButtonGroup>
         <ButtonGroup aria-label="Third group">
           <Button href="/ZT-05P">ZT-05P</Button>
