@@ -35,13 +35,17 @@ import Product14 from "./Pages/products/14";
 import Product15 from "./Pages/products/15";
 import Product16 from "./Pages/products/16";
 import Product17 from "./Pages/products/17";
+import Product18 from "./Pages/products/18";
+import Product19 from "./Pages/products/19";
+import Product20 from "./Pages/products/20";
+import Product21 from "./Pages/products/21";
+import Product22 from "./Pages/products/22";
 import Contact from "./Pages/contact/Contact";
 import Projects from "./Pages/projects/projects";
 import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
 import ScrollToTop from "./Components/Scroll/ScrollToTop";
 import Error from "./Pages/error/Error";
-
 
 function App() {
   return (
@@ -80,6 +84,11 @@ function App() {
         <Route path="/UAV_AG-10" element={<Product15 />} />
         <Route path="/JP-R30" element={<Product16 />} />
         <Route path="/JP-REOD400" element={<Product17 />} />
+        <Route path="/ArmoredVehicle" element={<Product18 />} />
+        <Route path="/VX-5P" element={<Product19 />} />
+        <Route path="/FEAR-01P" element={<Product20 />} />
+        <Route path="/ZT-05P" element={<Product21 />} />
+        <Route path="/ZT-10P" element={<Product22 />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/exhibition1" element={<Exhibition1 />} />

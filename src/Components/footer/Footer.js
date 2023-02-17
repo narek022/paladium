@@ -1,7 +1,10 @@
 import React from "react";
+import { useEffect } from "react";
 import "./style.css";
 
-const Footer = () => (
+function Footer () {
+
+return(
   <footer className="page-footer font-small blue pt-4">
     <div className="container-fluid">
       <div className="row">
@@ -20,6 +23,8 @@ const Footer = () => (
       © 2023 Copyright: Paladiumtechserviceltd
     </div>
   </footer>
-);
+)
+}
+ 
 
 export default Footer;

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Container, Navbar, NavbarBrand, Nav, NavItem } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
-import logo from "./Pics/logo1.png";
+import logo from "./Pics/PaladiumLogo2.png";
 import "./Navbar.css";
 
 

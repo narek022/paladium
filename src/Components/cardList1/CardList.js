@@ -14,7 +14,9 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv1} alt="Auto Services"/>
+            <a href="/AutoServices">
+              <Card.Img variant="top" src={serv1} alt="Auto Services" />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/AutoServices">Auto Services</NavLink>
@@ -24,7 +26,9 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv2} alt="ITServices"/>
+            <a href="/ITServices">
+              <Card.Img variant="top" src={serv2} alt="ITServices" />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/ITServices">IT Services</NavLink>
@@ -36,7 +40,13 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv3} alt="MaintenanceOfCommunucationEquipment"/>
+            <a href="/MaintenanceOfCommunucationEquipment">
+              <Card.Img
+                variant="top"
+                src={serv3}
+                alt="MaintenanceOfCommunucationEquipment"
+              />
+            </a>
             <Card.Body className="card-body-list">
               <Card.Title>
                 <NavLink href="/MaintenanceOfCommunucationEquipment">
@@ -48,7 +58,9 @@ function GridExample() {
         </Col>
         <Col>
           <Card>
-            <Card.Img variant="top" src={serv4} alt="TrainingAndTesting"/>
+            <a href="/TrainingAndTesting">
+              <Card.Img variant="top" src={serv4} alt="TrainingAndTesting" />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/TrainingAndTesting">

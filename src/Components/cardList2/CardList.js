@@ -15,6 +15,7 @@ import communicationIcon from "./pics/communication.svg";
 import nightIcon from "./pics/night.svg";
 import thermalIcon from "./pics/thermal.svg";
 import robotIcon from "./pics/robot.svg";
+import armvehch from "./pics/military-vehicle.png";
 import "./style3.css";
 
 function GridExample() {
@@ -23,12 +24,14 @@ function GridExample() {
       <Row xs={1} md={2} className="g-4">
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="AutoSpareParts"
-              src={car}
-            />
+            <a href="/AutoSpareParts">
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="AutoSpareParts"
+                src={car}
+              />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/AutoSpareParts">Auto Spare Parts</NavLink>
@@ -38,12 +41,14 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="UAV"
-              src={aiplaneIcon}
-            />
+            <a href="/UAV">
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="UAV"
+                src={aiplaneIcon}
+              />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/UAV">UAV</NavLink>
@@ -51,7 +56,7 @@ function GridExample() {
             </Card.Body>
           </Card>
         </Col>
-        <Col className="col1">
+        {/* <Col className="col1">
           <Card>
             <Card.Img
               className="icon"
@@ -67,17 +72,17 @@ function GridExample() {
               </Card.Title>
             </Card.Body>
           </Card>
-        </Col>
-      </Row>
-      <Row xs={1} md={2} className="g-4">
+        </Col> */}
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="Cover"
-              src={coverIcon}
-            />
+            <a href="/Cover">
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="Cover"
+                src={coverIcon}
+              />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Cover">Cover</NavLink>
@@ -87,12 +92,14 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="Communication"
-              src={communicationIcon}
-            />
+            <a href="/Communication">
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="Communication"
+                src={communicationIcon}
+              />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Communication">Communication</NavLink>
@@ -102,12 +109,14 @@ function GridExample() {
         </Col>
         <Col className="col1">
           <Card>
-            <Card.Img
-              className="icon"
-              variant="top"
-              alt="Robots"
-              src={robotIcon}
-            />
+            <a href="Robots">
+              <Card.Img
+                className="icon"
+                variant="top"
+                alt="Robots"
+                src={robotIcon}
+              />
+            </a>
             <Card.Body>
               <Card.Title>
                 <NavLink href="/Robots">Robots</NavLink>
@@ -124,12 +133,14 @@ function GridExample() {
           <Row xs={1} md={2} className="g-4">
             <Col className="col1">
               <Card>
-                <Card.Img
-                  className="icon"
-                  variant="top"
-                  alt="Helmets"
-                  src={helmetIcon}
-                />
+                <a href="/Helmets">
+                  <Card.Img
+                    className="icon"
+                    variant="top"
+                    alt="Helmets"
+                    src={helmetIcon}
+                  />
+                </a>
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/Helmets">Helmets</NavLink>
@@ -139,12 +150,14 @@ function GridExample() {
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img
-                  className="icon"
-                  variant="top"
-                  alt="Accessories"
-                  src={accessoriesIcon}
-                />
+                <a href="Accessories">
+                  <Card.Img
+                    className="icon"
+                    variant="top"
+                    alt="Accessories"
+                    src={accessoriesIcon}
+                  />
+                </a>
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/Accessories">Accessories</NavLink>
@@ -154,12 +167,14 @@ function GridExample() {
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img
-                  className="icon"
-                  variant="top"
-                  alt="ArmorPlates"
-                  src={sheildIcon}
-                />
+                <a href="/ArmorPlates">
+                  <Card.Img
+                    className="icon"
+                    variant="top"
+                    alt="ArmorPlates"
+                    src={sheildIcon}
+                  />
+                </a>
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/ArmorPlates">Armor Plates</NavLink>
@@ -169,15 +184,34 @@ function GridExample() {
             </Col>
             <Col className="col1">
               <Card>
-                <Card.Img
-                  className="icon"
-                  variant="top"
-                  alt="BulletprofVest"
-                  src={vestIcon}
-                />
+                <a href="/BulletprofVest">
+                  <Card.Img
+                    className="icon"
+                    variant="top"
+                    alt="BulletprofVest"
+                    src={vestIcon}
+                  />
+                </a>
                 <Card.Body>
                   <Card.Title>
                     <NavLink href="/BulletprofVest">Bulletprof Vest</NavLink>
+                  </Card.Title>
+                </Card.Body>
+              </Card>
+            </Col>
+            <Col className="col1">
+              <Card>
+                <a href="/ArmoredVehicle">
+                  <Card.Img
+                    className="icon"
+                    variant="top"
+                    alt="Helmets"
+                    src={armvehch}
+                  />
+                </a>
+                <Card.Body>
+                  <Card.Title>
+                    <NavLink href="/ArmoredVehicle">Armored Vehicle</NavLink>
                   </Card.Title>
                 </Card.Body>
               </Card>
@@ -192,12 +226,14 @@ function GridExample() {
         <Row xs={1} md={2} className="g-4">
           <Col className="col1">
             <Card>
-              <Card.Img
-                className="icon"
-                variant="top"
-                alt="Optics"
-                src={opticsIcon}
-              />
+              <a href="/Optics">
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="Optics"
+                  src={opticsIcon}
+                />
+              </a>
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/Optics">Daylight Optics</NavLink>
@@ -207,7 +243,14 @@ function GridExample() {
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img className="icon" variant="top" alt="NightVision" src={nightIcon} />
+              <a href="NightVision">
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="NightVision"
+                  src={nightIcon}
+                />
+              </a>
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/NightVision">Night Vision Optics</NavLink>
@@ -217,12 +260,14 @@ function GridExample() {
           </Col>
           <Col className="col1">
             <Card>
-              <Card.Img
-                className="icon"
-                variant="top"
-                alt="ThermalVision"
-                src={thermalIcon}
-              />
+              <a href="/ThermalVision">
+                <Card.Img
+                  className="icon"
+                  variant="top"
+                  alt="ThermalVision"
+                  src={thermalIcon}
+                />
+              </a>
               <Card.Body>
                 <Card.Title>
                   <NavLink href="/ThermalVision">Thermal Vision Optics</NavLink>
