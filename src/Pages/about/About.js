@@ -6,7 +6,7 @@ import "./about.css"
 function About () {
     return (
         <div>
-            <title>Abous Us | PaladiumTechServiceLimited</title>
+            <title>About Us | PaladiumTechServiceLimited</title>
             <Header />
             <Body />
         </div>
