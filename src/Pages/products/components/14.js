@@ -13,7 +13,6 @@ import epo5 from '../pics/epo5.jpeg';
 import epo6 from '../pics/epo6.jpeg';
 import epo7 from '../pics/epo7.jpeg';
 import epo8 from '../pics/epo8.jpeg';
-import "./body.css";
 
 function StaffInfo() {
   const [show, setShow] = useState(false);
@@ -23,12 +22,6 @@ function StaffInfo() {
   const [show2, setShow2] = useState(false);
   const handleClose2 = () => setShow2(false);
   const handleShow2 = () => setShow2(true);
-
-
-  // const [show3, setShow3] = useState(false);
-  // const handleClose3 = () => setShow3(false);
-  // const handleShow3 = () => setShow3(true);
-
 
   const [show4, setShow4] = useState(false);
   const handleClose4 = () => setShow4(false);
