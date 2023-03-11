@@ -81,7 +81,7 @@ function App() {
         <Route path="/ThermalVision" element={<Product12 />} />
         <Route path="/Robots" element={<Product13 />} />
         <Route path="/UAV_EPO" element={<Product14 />} />
-        <Route path="/UAV_AG-10" element={<Product15 />} />
+        <Route path="/RIG-01P" element={<Product15 />} />
         <Route path="/JP-R30" element={<Product16 />} />
         <Route path="/JP-REOD400" element={<Product17 />} />
         <Route path="/ArmoredVehicle" element={<Product18 />} />
