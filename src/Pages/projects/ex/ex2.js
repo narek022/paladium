@@ -15,6 +15,11 @@ import exhibition26 from '../ex/exespics/exhibition26.jpg';
 import exhibition27 from '../ex/exespics/exhibition27.jpg';
 import exhibition28 from '../ex/exespics/exhibition28.jpg';
 import exhibition29 from '../ex/exespics/exhibition29.jpg';
+import exhibition210 from '../ex/exespics/exhibition210.jpg';
+import exhibition211 from '../ex/exespics/exhibition211.jpg';
+import exhibition212 from '../ex/exespics/exhibition212.jpg';
+import exhibition213 from '../ex/exespics/exhibition213.jpg';
+import exhibition214 from '../ex/exespics/exhibition214.jpg';
 
 export default function Projects() {
 
@@ -54,19 +59,33 @@ export default function Projects() {
   const handleClose9 = () => setShow9(false);
   const handleShow9 = () => setShow9(true);
 
+  const [show10, setShow10] = useState(false);
+  const handleClose10 = () => setShow10(false);
+  const handleShow10= () => setShow10(true);
+
+  const [show11, setShow11] = useState(false);
+  const handleClose11 = () => setShow11(false);
+  const handleShow11 = () => setShow11(true);
+
+  const [show12, setShow12] = useState(false);
+  const handleClose12 = () => setShow12(false);
+  const handleShow12 = () => setShow12(true);
+
+  const [show13, setShow13] = useState(false);
+  const handleClose13 = () => setShow13(false);
+  const handleShow13 = () => setShow13(true);
+
+  const [show14, setShow14] = useState(false);
+  const handleClose14 = () => setShow14(false);
+  const handleShow14 = () => setShow14(true);
+
   return (
     <div className="excont" >
       <Header />
       {/* <Cardlist /> */}
       <p>
         {" "}
-        Our company participated in various international exhibitions. One of
-        them is ISNR - International Exhibition for National Security and
-        Resilience, helded in Abu Dhabi, UAE. ISNR Abu Dhabi is the region’s
-        most trusted platform bringing together national & cyber security
-        officials, buyers and all supply chain stakeholders from public and
-        private sectors, to conduct business, enhance industry leadership and
-        showcase innovation to discuss & influence future projects.
+        Our company participated in various international exhibitions. One of them is IDEX and NAVDEX 2023 - International Defense Exhibition for companies in defense industry, governments, armed forces and military personnell, held in Abu Dhabi, UAE. IDEX is the region’s most trusted platform bringing together national & cyber security officials, buyers and all supply chain stakeholders from public and private sectors, to conduct business, enhance industry leadership and showcase innovation to discuss & influence future projects.
       </p>
       <div className="workcont">
         <Row xs={1} md={2} className="g-4">
@@ -174,6 +193,66 @@ export default function Projects() {
               <Modal show={show9} onHide={handleClose9}>
                 <Modal.Body>
                   <img className="modalImg" src={exhibition29}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow10}>
+                <Card.Img className="pic" variant="top" alt="exhibition210" src={exhibition210} />
+              </button>
+              <Modal show={show10} onHide={handleClose10}>
+                <Modal.Body>
+                  <img className="modalImg" src={exhibition210}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow11}>
+                <Card.Img className="pic" variant="top" alt="exhibition211" src={exhibition211} />
+              </button>
+              <Modal show={show11} onHide={handleClose11}>
+                <Modal.Body>
+                  <img className="modalImg" src={exhibition211}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow12}>
+                <Card.Img className="pic" variant="top" alt="exhibition212" src={exhibition212} />
+              </button>
+              <Modal show={show12} onHide={handleClose12}>
+                <Modal.Body>
+                  <img className="modalImg" src={exhibition212}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow13}>
+                <Card.Img className="pic" variant="top" alt="exhibition213" src={exhibition213} />
+              </button>
+              <Modal show={show13} onHide={handleClose13}>
+                <Modal.Body>
+                  <img className="modalImg" src={exhibition213}></img>
+                </Modal.Body>
+              </Modal>
+            </Card>
+          </Col>
+          <Col className="slide">
+            <Card>
+              <button className="btn" onClick={handleShow14}>
+                <Card.Img className="pic" variant="top" alt="exhibition214" src={exhibition214} />
+              </button>
+              <Modal show={show14} onHide={exhibition214}>
+                <Modal.Body>
+                  <img className="modalImg" src={exhibition214}></img>
                 </Modal.Body>
               </Modal>
             </Card>

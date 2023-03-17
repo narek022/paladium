@@ -20,7 +20,7 @@ function GridExample() {
           their experience and expertise to every project to ensure compliance
           and, most importantly, safety. PaladiumTechService Limited is also an
           intermediary company that provide broker service to clients by
-          presenting as a connecting link between the seller and the buyer.
+          presenting as a connecting link between the seller and the buyer. We are able to provide small arms and pistols, machine guns of different calibers including large caliber, sniper weapons of various calibers, large artillery shells: both self-driving and towing, also sniper and artillery weaponry of various calibers.
         </span>
       </div>
       <div className="abb2">
