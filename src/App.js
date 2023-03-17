@@ -46,6 +46,8 @@ import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
 import ScrollToTop from "./Components/Scroll/ScrollToTop";
 import Error from "./Pages/error/Error";
+import IR5120PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5120-P";
+import IR5211PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5211-P";
 
 function App() {
   return (
@@ -93,6 +95,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/exhibition1" element={<Exhibition1 />} />
         <Route path="/exhibition2" element={<Exhibition2 />} />
+        <Route path="/IR5120-P" element={<IR5120PMain />} />
+        <Route path="/IR5211-P" element={<IR5211PMain />} />
         <Route path="/*" element={<Error />} />
       </Routes>
       <BackToTop />

@@ -5,6 +5,7 @@ import Modal from "react-bootstrap/Modal";
 import React, { useState } from "react";
 import img from "../pics/daylight.jpg";
 import img2 from "../pics/day.jpg";
+import ToolbarOptics from "./OpticHelpers";
 import "./body.css";
 
 function StaffInfo() {
@@ -26,6 +27,7 @@ function StaffInfo() {
             use within daylight hours.
           </p>
         </div>
+        <ToolbarOptics />
     </div>
   );
 }
