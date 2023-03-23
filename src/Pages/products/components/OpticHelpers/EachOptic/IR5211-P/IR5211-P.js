@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
+import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import img from '../IR5211-P/Pictures/IR5211-P.png'
@@ -16,24 +15,30 @@ function IR5211PDetails() {
                             </h4>
                         </Col>
                         <h6>
-                            Recognition: Daysight telescope
+                            Detection
                         </h6>
                         <p className="p-0">
-                            ≥1500m（1.7m×0.5m human）≥2500m（armored vehicle）
+                            DAY: ≥12000m(2.3m×4.6m vehicle)
                             <br />
-                            Infrared:
+                            IR: ≥8000m(2.3m×4.6m vehicle)
+                        </p>
+                        <h6>
+                            Recognition:
+                        </h6>
+                        <p className="p-0">
+                            DAY: ≥9000m(2.3m×4.6m vehicle)
                             <br />
-                            ≥1200m（1.7m×0.5m human）≥2000m（armored vehicle）
-                            <br />
-                            LRF effective range :50m-2500m
+                            IR: ≥5000m(2.3m×4.6m vehicle)
+                            LRF: 80m~ 8000m
+                            Integrates IR, day camera, laser range finder, digital magnetic compass, global navigation satellite system (GPS & Beidou) and memory module.
                         </p>
                     </div>
                     <div className="stimg">
-                        <Col>
-                            <Card>
-                                <Card.Img className="uavimg1" variant="top" src={img} alt="IR5211-P" />
-                            </Card>
-                        </Col>
+                        <img
+                            src={img}
+                            alt="IR5211-P"
+                            height={200}
+                        />
                     </div>
                 </Row>
             </div>

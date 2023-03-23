@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import Card from "react-bootstrap/Card";
+import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import img from '../IR5120-P/Pictures/IR5120-P.png'
@@ -25,15 +24,15 @@ function IR5120PDetails() {
                             <br />
                             ≥1200m（1.7m×0.5m human）≥2000m（armored vehicle）
                             <br />
-                            LRF effective range :50m-2500m
+                            LRF effective range: 50m-2500m
                         </p>
                     </div>
                     <div className="stimg">
-                        <Col>
-                            <Card>
-                                <Card.Img className="uavimg1" variant="top" src={img} alt="uavimg1" />
-                            </Card>
-                        </Col>
+                        <img
+                            src={img}
+                            alt="IR5120-P"
+                            height={200}
+                        />
                     </div>
                 </Row>
             </div>
