@@ -52,7 +52,6 @@ function StaffInfo() {
   const handleClose9 = () => setShow9(false);
   const handleShow9 = () => setShow9(true);
 
-
   return (
     <>
       <div className="staffcont">

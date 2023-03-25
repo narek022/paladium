@@ -3,7 +3,6 @@ import { Routes, Route } from "react-router-dom";
 import Header from "./Components/navbar/Navbar";
 import BackToTop from "./Components/BackToTop/Back"
 import Footer from "./Components/footer/Footer";
-import Footer2 from "./Components/footer/Footer2"
 import Home from "./Pages/home/Home";
 import About from "./Pages/about/About";
 import Staff from "./Pages/staff/Staff";
@@ -46,6 +45,8 @@ import Exhibition1 from "./Pages/projects/ex/ex1";
 import Exhibition2 from "./Pages/projects/ex/ex2";
 import ScrollToTop from "./Components/Scroll/ScrollToTop";
 import Error from "./Pages/error/Error";
+import IR5120PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5120-P";
+import IR5211PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5211-P";
 
 function App() {
   return (
@@ -93,6 +94,8 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/exhibition1" element={<Exhibition1 />} />
         <Route path="/exhibition2" element={<Exhibition2 />} />
+        <Route path="/IR5120-P" element={<IR5120PMain />} />
+        <Route path="/IR5211-P" element={<IR5211PMain />} />
         <Route path="/*" element={<Error />} />
       </Routes>
       <BackToTop />
