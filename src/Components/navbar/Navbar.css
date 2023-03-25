@@ -38,10 +38,24 @@
 .show {
     padding: 10px;
     margin-left: 0;
+    display: flex;
+    justify-content: end;
+}
+
+.show .navbar-nav .nav-item{
+    display: flex;
+    justify-content: end;
 }
 
 .collapsing{
     padding: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.collapsing .navbar-nav .nav-item {
+    display: flex;
+    justify-content: end;
 }
 
 .collapse .mr-auto {
