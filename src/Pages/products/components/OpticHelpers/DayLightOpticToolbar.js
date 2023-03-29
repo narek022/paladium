@@ -3,7 +3,7 @@ import Button from "react-bootstrap/Button";
 import ButtonGroup from "react-bootstrap/ButtonGroup";
 import ButtonToolbar from "react-bootstrap/ButtonToolbar";
 
-function ToolbarOptics() {
+function DayLightOpticToolbar() {
   return (
     <div className="uavbtn11">
       <ButtonToolbar aria-label="Toolbar with button groups">
@@ -24,4 +24,4 @@ function ToolbarOptics() {
   );
 }
 
-export default ToolbarOptics;
+export default DayLightOpticToolbar;

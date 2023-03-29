@@ -1,5 +1,5 @@
 import React from "react";
-import ToolbarOptics from "./OpticHelpers";
+import DayLightOpticToolbar from "./OpticHelpers/DayLightOpticToolbar";
 import "./body.css";
 
 function StaffInfo() {
@@ -13,7 +13,7 @@ function StaffInfo() {
             use within daylight hours.
           </p>
         </div>
-        <ToolbarOptics />
+        <DayLightOpticToolbar />
     </div>
   );
 }
