@@ -50,6 +50,10 @@ import IR5211PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR52
 import IR5213PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5213-P";
 import IR522PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR522-P";
 import IR5116PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5213-P";
+import IR5118PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5118-P";
+import IR5115PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5115-P";
+import IR5117PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5117-P";
+import IR528PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR528-P";
 
 function App() {
   return (
@@ -102,6 +106,10 @@ function App() {
         <Route path="/IR5213-P" element={<IR5213PMain />} />
         <Route path="/IR522-P" element={<IR522PMain />} />
         <Route path="/IR5116-P" element={<IR5116PMain />} />
+        <Route path="/IR5118-P" element={<IR5118PMain />} />
+        <Route path="/IR5115-P" element={<IR5115PMain />} />
+        <Route path="/IR5117-P" element={<IR5117PMain />} />
+        <Route path="/IR528-P" element={<IR528PMain />} />
         <Route path="/*" element={<Error />} />
       </Routes>
       <BackToTop />

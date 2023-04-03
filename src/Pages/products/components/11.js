@@ -1,4 +1,3 @@
-
 import React from "react";
 import NightVisionToolbar from "./OpticHelpers/NightVisionToolbar";
 import "./body.css";
