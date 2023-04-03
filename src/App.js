@@ -54,6 +54,7 @@ import IR5118PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR51
 import IR5115PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5115-P";
 import IR5117PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR5117-P";
 import IR528PMain from "./Pages/products/components/OpticHelpers/EachOptic/IR528-P";
+import MineDetector1 from "./Pages/products/components/AccessoriesHelpers/EachMine/MineDetector1";
 
 function App() {
   return (
@@ -110,6 +111,7 @@ function App() {
         <Route path="/IR5115-P" element={<IR5115PMain />} />
         <Route path="/IR5117-P" element={<IR5117PMain />} />
         <Route path="/IR528-P" element={<IR528PMain />} />
+        <Route path="/mine-detector-1" element={<MineDetector1 />} />
         <Route path="/*" element={<Error />} />
       </Routes>
       <BackToTop />

@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import img from "../../Components/carousel1/pics/car2.jpg"
-import ServInfo from "./components/9"
+import MineDetectorToolbar from '../../Pages/products/components/AccessoriesHelpers/MineDetectorToolbar';
 
 function Service1() {
   return (
@@ -15,7 +15,7 @@ function Service1() {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
-      <ServInfo />
+      <MineDetectorToolbar />
     </div>
   );
 }

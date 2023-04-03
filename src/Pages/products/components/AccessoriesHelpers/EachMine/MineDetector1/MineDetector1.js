@@ -1,9 +1,9 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import img from '../IR528-P/Pictures/IR528-P.png'
+import img from '../IR5116-P/Pictures/IR5116-P.png'
 
-function IR528PDetails() {
+function MineDetector1() {
     return (
         <>
             <div className="staffcont">
@@ -11,19 +11,20 @@ function IR528PDetails() {
                     <div className="stinfo">
                         <Col>
                             <h4>
-                                IR528-P Fusion Binocular with uncooled IR and low-lux CMOS
+                                IR5116-P Digital Night Vision Sight
                             </h4>
                         </Col>
+                        <h6>
+                            Recognition:
+                        </h6>
                         <p className="p-0">
-                            IR:900m (medium sized tank flank)
-                            <br />
-                            Low-lux: 350m (medium sized tank flank)
+                            ≥300m (1.7m×0.5m human)
                         </p>
                     </div>
                     <div className="stimg">
                         <img
                             src={img}
-                            alt="IR528-P"
+                            alt="IR5116-P"
                             height={200}
                         />
                     </div>
@@ -33,4 +34,4 @@ function IR528PDetails() {
     );
 }
 
-export default IR528PDetails;
+export default MineDetector1;
