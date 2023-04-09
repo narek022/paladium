@@ -1,9 +1,9 @@
 import React from "react";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import img from '../IR5211-P/Pictures/IR5211-P.png'
+import img from '../IR522-P/Pictures/IR522-P.png'
 
-function IR5211PDetails() {
+function IR522PDetails() {
     return (
         <>
             <div className="staffcont">
@@ -11,34 +11,39 @@ function IR5211PDetails() {
                     <div className="stinfo">
                         <Col>
                             <h4>
-                                IR5211-P Dual-band Smart Light Weapon Sight (High-Definition)
+                                IR522-P Dual-Channel Uncooled Day/Night Surveillance & Location Targeting Binocular (High-Definition)
                             </h4>
                         </Col>
                         <h6>
                             Detection
                         </h6>
                         <p className="p-0">
-                            DAY: ≥12000m (2.3m×4.6m vehicle)
+                            DAY: ≥5000m (2.3m×4.6m vehicle)
+
                             <br />
-                            IR: ≥8000m (2.3m×4.6m vehicle)
+                            IR: ≥5000m (2.3m×4.6m vehicle)
                         </p>
                         <h6>
                             Recognition:
                         </h6>
                         <p className="p-0">
-                            DAY: ≥9000m (2.3m×4.6m vehicle)
+                            IR:  ≥2000m (2.3m×4.6m vehicle)
                             <br />
-                            IR: ≥5000m (2.3m×4.6m vehicle)
-                            <br />
-                            LRF: 80m~ 8000m
+                            LRF: 30m~ 6000m
                             <br /><br />
                             Integrates IR, day camera, laser range finder, digital magnetic compass, global navigation satellite system (GPS & Beidou) and memory module.
+                            <br /><br />
+                            &#10003; Image stabilization/enhancement: compiled.
+                            <br />
+                            &#10003; Can be used as a standalone hand-held unit with integrated binocular eyepiece.
+                            <br />
+                            &#10003; It can be mounted on a designated high-precision non-magnetic tripod set.
                         </p>
                     </div>
                     <div className="stimg">
                         <img
                             src={img}
-                            alt="IR5211-P"
+                            alt="IR522-P"
                             height={200}
                         />
                     </div>
@@ -48,4 +53,4 @@ function IR5211PDetails() {
     );
 }
 
-export default IR5211PDetails;
+export default IR522PDetails;

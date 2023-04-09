@@ -39,23 +39,23 @@
     padding: 10px;
     margin-left: 0;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .show .navbar-nav .nav-item{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .collapsing{
     padding: 10px;
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .collapsing .navbar-nav .nav-item {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .collapse .mr-auto {
